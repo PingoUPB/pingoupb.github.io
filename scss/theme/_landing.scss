@@ -1,0 +1,68 @@
+.landing-header {
+	background-image: radial-gradient(ellipse at 90% 80%, #80bfe0 0%,#002f6f 53%,#001c41 100%);
+	padding: 2*$base-spacing-unit 0 6*$base-spacing-unit;
+	color: #bcc7d7;
+}
+
+.landing-header__logo {
+	margin-bottom: 2*$base-spacing-unit;
+}
+
+.landing-header__title {
+	color: #fff;
+	font-size:2.25em;
+}
+
+.landing-header__text {
+	font-size: 1.5em;
+	font-weight: 300;
+	margin-bottom: 3*$base-spacing-unit;
+}
+
+.landing-header__actions {
+	.button {
+		border-color: #fff;
+		color: #fff;
+	}
+
+	.button--hollow:hover {
+		background-color: rgba(255,255,255,.05);
+	}
+
+	.button--stripped {
+		opacity: .8;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.landing-header__phone {
+	position: absolute;
+	right: 0;
+	top: 2*$base-spacing-unit;
+	width: 362px;
+	height: 759px;
+	background: url(../img/phone.png) no-repeat right center;
+}
+
+@media (min-device-pixel-ratio: 1.5), 
+	(min-resolution: 144dpi) {
+	.landing-header__phone {
+		background: url(../img/phone@2x.png) no-repeat right center;
+		background-size: 100% 100%;
+	}
+}
+
+// MOBILE ADJUSTMENTS
+@media only screen and #{nth(nth($breakpoints, 2), 2)} { // lap breakpoint
+	.landing-header {
+		background-image: radial-gradient(ellipse at bottom right, #80bfe0 0%,#002f6f 53%,#001c41 100%);
+		padding: 2*$base-spacing-unit 0;
+	}
+
+	.landing-header__phone {
+		display: none;
+	}
+} 

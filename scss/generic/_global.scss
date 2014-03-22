@@ -1,0 +1,18 @@
+html {
+    font:#{($base-font-size/16px)*1em}/#{$line-height-ratio} $base-font-family;
+    overflow-y:scroll;
+    min-height:100%;
+    color: $base-font-color;
+}
+
+.centered {
+	max-width: $base-page-width;
+	padding: 0 $base-spacing-unit;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+p {
+	line-height: 1.5em;
+}

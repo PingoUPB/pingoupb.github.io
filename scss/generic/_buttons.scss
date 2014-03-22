@@ -1,0 +1,45 @@
+.button {
+	padding: 1em 1.5em;
+	border-radius: $base-ui-radius;
+	background-color: $base-ui-color;
+	text-decoration: none;
+	cursor: pointer;
+	color: $base-font-color;
+	font-weight: bold;
+	white-space: nowrap;
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+
+	&:hover {
+		background-color: darken($base-ui-color, 5%);
+	}
+}
+
+.button--stripped {
+	border: none;
+	background: transparent;
+	font-weight: normal;
+
+	&:hover {
+		background: transparent;
+	}
+}
+
+.button--hollow {
+	background: transparent;
+	border: 2px solid $base-ui-color;
+
+	&:hover {
+		background: transparent;
+		border-color: darken($base-ui-color, 5%);
+	}
+}
+
+@media only screen and #{nth(nth($breakpoints, 2), 2)} { // lap breakpoint
+	.button {
+		display: block;
+		width: 100%;
+		margin-bottom: $base-spacing-unit;
+	}
+}
