@@ -1448,6 +1448,22 @@ p {
     margin-bottom: 24px;
   }
 }
+.nav {
+  list-style: none;
+  margin-left: -1.5em;
+}
+.nav li {
+  display: inline-block;
+  margin-right: -0.25em;
+}
+.nav a {
+  display: inline-block;
+  padding: 1em 1.5em;
+}
+.nav a:hover {
+  background-color: #eff1f2;
+}
+
 .landing-header {
   background-image: -webkit-radial-gradient(90% 80%, ellipse, #80bfe0 0%, #002f6f 53%, #001c41 100%);
   background-image: radial-gradient(ellipse at 90% 80%, #80bfe0 0%, #002f6f 53%, #001c41 100%);
@@ -1509,4 +1525,12 @@ p {
   .landing-header__phone {
     display: none;
   }
+}
+.main-nav {
+  background-color: #f5f6f7;
+}
+.main-nav a {
+  color: #444546;
+  font-weight: bold;
+  text-decoration: none;
 }

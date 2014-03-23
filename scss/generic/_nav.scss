@@ -1,0 +1,18 @@
+.nav {
+	list-style: none;
+	margin-left: -1.5em;
+
+	li {
+		display: inline-block;
+		margin-right:-0.25em;
+	}
+
+	a {
+		display: inline-block;
+		padding: 1em 1.5em;
+
+		&:hover {
+			background-color: darken($base-ui-color, 2%);
+		}
+	}
+}
