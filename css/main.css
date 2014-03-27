@@ -2147,6 +2147,7 @@ h2 {
     $HEADER
 \*------------------------------------*/
 .landing-header {
+  background-color: #002f6f;
   background-image: radial-gradient(ellipse at 90% 80%, #80bfe0 0%, #002f6f 53%, #001c41 100%);
   padding: 48px 0 144px;
   color: #bcc7d7;
