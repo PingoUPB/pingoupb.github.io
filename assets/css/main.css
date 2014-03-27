@@ -2165,7 +2165,7 @@ h2 {
 html {
   position: relative;
   box-sizing: border-box;
-  padding-bottom: 336px;
+  padding-bottom: 312px;
 }
 
 .main-footer {
@@ -2196,7 +2196,7 @@ html {
 
 @media only screen and (min-width: 768px) {
   html {
-    padding-bottom: 168px;
+    padding-bottom: 192px;
   }
 }
 /*------------------------------------*\

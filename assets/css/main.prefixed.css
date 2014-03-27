@@ -2167,7 +2167,7 @@ html {
   position: relative;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding-bottom: 336px;
+  padding-bottom: 312px;
 }
 
 .main-footer {
@@ -2198,7 +2198,7 @@ html {
 
 @media only screen and (min-width: 768px) {
   html {
-    padding-bottom: 168px;
+    padding-bottom: 192px;
   }
 }
 /*------------------------------------*\
