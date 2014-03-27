@@ -46,7 +46,7 @@
 	}
 }
 
-@media only screen and #{nth(nth($breakpoints, 2), 2)} { // lap breakpoint
+@media only screen and #{nth(nth($breakpoints, 3), 2)} { // lap breakpoint
 	.button {
 		display: block;
 		width: 100%;
