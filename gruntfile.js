@@ -62,7 +62,7 @@ module.exports = function(grunt) {
             },
             dev: {
                 options: {
-                    limit_posts: 2
+                    config: "_config_dev.yml"
                 }
             }
         },
@@ -88,7 +88,7 @@ module.exports = function(grunt) {
                 }
             },
             html: {
-                files: ['**/*.html', '!_site/**/*.html'],
+                files: ['**/*.html', '**/*.md', '!_site/**/*.html'],
                 tasks: ['jekyll:dev'],
                 options: {
                     spawn: false,
@@ -111,6 +111,6 @@ module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt);
 
     grunt.registerTask('default', ['sass', 'autoprefixer', 'cssmin', 'jshint', 'concat', 'uglify', 'jekyll:dist']);
-    grunt.registerTask('dev', ['default', 'connect', 'watch']);
+    grunt.registerTask('dev', ['sass', 'autoprefixer', 'cssmin', 'jshint', 'concat', 'uglify', 'jekyll:dev', 'connect', 'watch']);
 
 };

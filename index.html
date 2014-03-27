@@ -1,13 +1,57 @@
 ---
 layout: default
-title: PINGO – Peer Instruction for very large Groups, Classroom-Response-System, Audience-Feedback
+title: Peer Instruction for very large Groups, Classroom-Response-System, Audience-Feedback
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+<header class="main-header--landing">
+	<div class="centered">
+		<div class="grid">
+			<div class="grid__item one-half portable--one-whole">
+				<img src="img/logo.svg" alt="PINGO" class="main-header--landing__logo">
+				<h1 class="main-header__title main-header--landing__title">
+					Peer Instruction <br> for very large Groups
+				</h1>
+				<article class="main-header--landing__text">
+					<p>Pingo ist ein <strong>kostenloses</strong> Live-Feedback-System für die Lehre zur Aktivierung von Studierenden insbesondere in großen Lehrveranstaltungen. </p>
+				</article>
+				<div class="main-header--landing__actions">
+					<a class="button button--hollow" href="https://pingo.upb.de/users/sign_up?utm_source=landing-page&utm_medium=web&utm_campaign=lndng-btn-tp">Als Dozent anmelden</a>
+					<a class="button button--stripped" href="features">mehr erfahren &rsaquo;</a>
+				</div>
+			</div>
+			<div class="main-header--landing__phone portable--hide"></div>
+		</div>
+	</div>
+</header>
+{% include nav.html %}
+<section class="centered macbook-section">
+	<div class="macbook-section__bg portable--hide">
+	</div>
+	<div class="grid">
+		<div class="grid__item one-half push--desk--one-half portable--one-whole">
+			<article class="macbook-section__text">
+				<h2>Keine Installation, keine zusätzliche Hardware notwendig.</h2>
+				<p>PINGO funktioniert über den Browser und wird von der Universität Paderborn kostenlos zur Verfügung gestellt. Studierende können einfach über den Browser in ihrem Smartphone, Tablet oder Notetbook abstimmen. Ebenso können Dozenten ihre Fragen über den Browser vorbereiten und Umfragen starten bzw. stoppen.</p>
+			</article>
+		</div>
+	</div>
+</section>
+<section class="crowd-section">
+	<div class="centered">
+		<div class="grid">
+			<article class="grid__item one-third lap--one-half palm--one-whole crowd-section__text">
+				<h2>Legen Sie sofort los</h2>
+				<p>Es ist keine Vorbereitung notwendig. Melden Sie sich an und starten sie direkt eine <strong>Quick-Session</strong>, um unmittelbares Feedback zu bekommen.</p>
+			</article>
+		</div>
+	</div>
+</section>
+<section class="call-section">
+	<article class="centered call-section__text">
+		<p><a class="button button--primary" href="https://pingo.upb.de/users/sign_up?utm_source=landing-page&utm_medium=web&utm_campaign=lndng-btn-bttm">Jetzt kostenlos anmelden</a>
+		</p>
+		<p>
+			<a href="features" class="muted-link">Noch nicht überzeugt? Jetzt alle Features von PINGO ansehen &rsaquo;</a>
+		</p>
+	</article>
+</section>

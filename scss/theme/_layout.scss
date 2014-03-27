@@ -1,0 +1,64 @@
+/*------------------------------------*\
+    $HEADER
+\*------------------------------------*/
+.main-header {
+	background-color: $base-brand-color; // fallback
+	background-image: radial-gradient(ellipse at 90% 80%, #80bfe0 0%,#002f6f 53%,#001c41 100%);
+	color: #fff;
+	padding: 1*$base-spacing-unit 0;
+}
+
+.main-header__title {
+	color: #fff;
+	font-size:2.25em;
+	margin-bottom: 0;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $FOOTER
+\*------------------------------------*/
+html {
+	position: relative;
+	box-sizing: border-box;
+	padding-bottom: 14*$base-spacing-unit;
+}
+
+.main-footer {
+	padding: $base-spacing-unit 0 0 ;
+	background: #333;
+	color: #fff;
+	position: absolute; 
+	bottom: 0;
+	width: 100%;
+
+	.centered {
+		background: url(../img/logo-muted.svg) no-repeat center 62%;
+	}
+
+	a {
+		color: #ccc;
+	}
+}
+
+.main-footer__links {
+	list-style: none;
+	margin-left: 0;
+
+	li, h1, h2, h3 {
+		line-height: 1.75*$base-font-size;
+	}
+
+	.push--top {
+		margin-top: 1.75*$base-font-size;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	html {
+		padding-bottom: 7*$base-spacing-unit;
+	}
+}

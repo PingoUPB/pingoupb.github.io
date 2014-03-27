@@ -32,14 +32,15 @@ $push: true;
 /* Load partials
  * ====================================================
 */
+@import "generic/normalize";
 @import "generic/reset";
 @import "generic/shared";
-@import "generic/normalize";
 @import "generic/global";
 @import "generic/buttons";
 @import "generic/nav";
 
 @import "theme/typography";
+@import "theme/layout";
 @import "theme/landing";
 @import "theme/main-nav";
 

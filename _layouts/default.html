@@ -3,13 +3,29 @@
 		<head>
 				<meta charset="utf-8">
 				<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-				<title>{{ page.title }}</title>
+				<title>PINGO – {{ page.title }}</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 				<link rel="stylesheet" href="/css/main.min.css">
 
 		</head>
 		<body>
-			{% include landing.html %}
-			<script src="//localhost:35729/livereload.js"></script>
+			{{ content }}
+			<footer class="main-footer">
+				<div class="centered">
+					<div class="grid">
+						<ul class="grid__item one-sixth portable--one-whole main-footer__links">
+							<li><h3>PINGO</h3></li>
+							<li><a href="{{ site.baseurl }}">Home</a></li>
+							<li><a href="{{ site.baseurl }}features">Features</a></li>
+							<li><a href="{{ site.baseurl }}team">Team</a></li>
+						</ul>
+						<ul class="grid__item one-sixth portable--one-whole main-footer__links push--top">
+							<li class="push--top"><a href="https://blogs.uni-paderborn.de/pingo/">Blog</a></li>
+							<li><a href="https://pingo.upb.de/privacy_policy.html">Datenschutz</a></li>
+							<li><a href="https://blogs.uni-paderborn.de/pingo/impressum/">Impressum</a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
 		</body>
 </html>

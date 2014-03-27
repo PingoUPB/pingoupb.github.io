@@ -1,0 +1,6 @@
+name: PINGO
+markdown: redcarpet
+pygments: false
+baseurl: http://localhost:8000/_site/
+include: [".htaccess"]
+exclude: ["scss", "node_modules", "bower_components", "package.json", "Gruntfile.js"]
