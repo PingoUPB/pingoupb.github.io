@@ -1,3 +1,6 @@
+/*------------------------------------*\
+    $HEADER
+\*------------------------------------*/
 .landing-header {
 	background-image: radial-gradient(ellipse at 90% 80%, #80bfe0 0%,#002f6f 53%,#001c41 100%);
 	padding: 2*$base-spacing-unit 0 6*$base-spacing-unit;
@@ -47,22 +50,56 @@
 	background: url(../img/phone.png) no-repeat right center;
 }
 
+
+
+
+/*------------------------------------*\
+    $MACBOOK
+\*------------------------------------*/
+.macbook-section {
+	margin: 2*$base-spacing-unit auto;
+	min-height: 544px;
+}
+
+.macbook-section__bg {
+	background: url(../img/macbook.png) no-repeat left top;
+	width: 911px;
+	height: 544px;
+	position: absolute;
+	right: 50%;
+	top: 0;
+}
+
+.macbook-section__text {
+	margin: 5*$base-spacing-unit 0;
+}
+
+
+
+
+/*------------------------------------*\
+    $MEDIA-QUERIES
+\*------------------------------------*/
 @media (min-device-pixel-ratio: 1.5), 
 	(min-resolution: 144dpi) {
 	.landing-header__phone {
 		background: url(../img/phone@2x.png) no-repeat right center;
 		background-size: 100% 100%;
 	}
+
+	.macbook-section__bg {
+		background: url(../img/macbook@2x.png) no-repeat left top;
+		background-size: 100% 100%;
+	} 
 }
 
-// MOBILE ADJUSTMENTS
 @media only screen and #{nth(nth($breakpoints, 2), 2)} { // lap breakpoint
 	.landing-header {
 		background-image: radial-gradient(ellipse at bottom right, #80bfe0 0%,#002f6f 53%,#001c41 100%);
 		padding: 2*$base-spacing-unit 0;
 	}
 
-	.landing-header__phone {
-		display: none;
+	.macbook-section__text  { 
+		margin: 0;
 	}
 } 

@@ -5,5 +5,9 @@
 		color: #444546;
 		font-weight: bold;
 		text-decoration: none;
+
+		&:hover {
+			background-color: darken($base-ui-color, 2%);
+		}
 	}
 }

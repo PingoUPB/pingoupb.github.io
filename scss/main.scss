@@ -9,9 +9,8 @@ $base-page-width: 960px!default;
 
 $breakpoints: (
     'palm' '(max-width: 480px)',
-    'lap' '(max-width: 767px)',
-    'portable' '(max-width: 1023px)',
-    'desk' '(min-width: 1024px)'
+    'portable' '(max-width: 767px)',
+    'desk' '(min-width: 768px)'
 );
 
 $base-font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -20,12 +19,14 @@ $base-brand-color: #002f6f;
 $base-font-color: #333435;
 $base-ui-color: #f5f6f7;
 $base-ui-radius: 4px;
+$push: true;
 
 
 /* Load Frameworks
  * ====================================================
 */
 @import "vendor/csswizardry-grids";
+@import "generic/responsive-helpers";
 
 /* Load partials
  * ====================================================
@@ -37,6 +38,7 @@ $base-ui-radius: 4px;
 @import "generic/buttons";
 @import "generic/nav";
 
+@import "theme/typography";
 @import "theme/landing";
 @import "theme/main-nav";
 

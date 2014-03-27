@@ -1,0 +1,20 @@
+@mixin hide($namespace:"") {
+	#{$class-type}#{$namespace}hide         { display: none; }
+}
+
+/*------------------------------------*\
+    $HIDE
+\*------------------------------------*/
+/**
+ * Hide classes, to hide elements on certain devices.
+ */
+@if $responsive == true{
+
+    @each $name in $breakpoint-has-widths {
+        @include grid-media-query($name) {
+           @include hide('#{$name}--');
+        }
+    }
+
+
+}

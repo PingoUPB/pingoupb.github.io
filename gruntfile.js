@@ -76,7 +76,7 @@ module.exports = function(grunt) {
                 tasks: ['sass', 'autoprefixer', 'cssmin', 'jekyll:dev'],
                 options: {
                     spawn: false,
-                    interrupt: true
+                    interrupt: false
                 }
             },
             scripts: {
@@ -84,7 +84,7 @@ module.exports = function(grunt) {
                 tasks: ['jshint', 'concat', 'uglify', 'jekyll:dev'],
                 options: {
                     spawn: false,
-                    interrupt: true
+                    interrupt: false
                 }
             },
             html: {
@@ -92,7 +92,7 @@ module.exports = function(grunt) {
                 tasks: ['jekyll:dev'],
                 options: {
                     spawn: false,
-                    interrupt: true
+                    interrupt: false
                 }
             }
         },
@@ -111,6 +111,6 @@ module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt);
 
     grunt.registerTask('default', ['sass', 'autoprefixer', 'cssmin', 'jshint', 'concat', 'uglify', 'jekyll:dist']);
-    grunt.registerTask('dev', ['connect', 'watch']);
+    grunt.registerTask('dev', ['default', 'connect', 'watch']);
 
 };
