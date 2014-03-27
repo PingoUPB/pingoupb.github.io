@@ -10,7 +10,7 @@ module.exports = function(grunt) {
                 style: 'expanded'
             },
             files: {
-                'css/main.css': 'scss/main.scss'
+                'assets/css/main.css': 'assets/scss/main.scss'
             }
           }
         },
@@ -20,15 +20,15 @@ module.exports = function(grunt) {
                 browsers: ['last 2 version', 'ie 9']
             },
             single_file: {
-                src: 'css/main.css',
-                dest: 'css/main.prefixed.css'
+                src: 'assets/css/main.css',
+                dest: 'assets/css/main.prefixed.css'
             }
         },
 
         cssmin: {
             combine: {
                 files: {
-                    'css/main.min.css': ['css/main.prefixed.css']
+                    'assets/css/main.min.css': ['assets/css/main.prefixed.css']
                 }
             }
         },
@@ -40,17 +40,17 @@ module.exports = function(grunt) {
         concat: {
           dist: {
             src: [
-                'js/_libs/*.js',
-                'js/scripts.js'
+                'assets/js/_libs/*.js',
+                'assets/js/scripts.js'
             ],
-            dest: 'js/scripts.concat.js'
+            dest: 'assets/js/scripts.concat.js'
           }
         },
 
         uglify: {
             build: {
-                src: 'js/scripts.concat.js',
-                dest: 'js/scripts.min.js'
+                src: 'assets/js/scripts.concat.js',
+                dest: 'assets/js/scripts.min.js'
             }
         },
 
@@ -72,7 +72,7 @@ module.exports = function(grunt) {
                 livereload: true,
             },
             css: {
-                files: ['scss/**/*.scss'],
+                files: ['assets/scss/**/*.scss'],
                 tasks: ['sass', 'autoprefixer', 'cssmin', 'jekyll:dev'],
                 options: {
                     spawn: false,
@@ -80,7 +80,7 @@ module.exports = function(grunt) {
                 }
             },
             scripts: {
-                files: ['js/*.js'],
+                files: ['assets/js/*.js'],
                 tasks: ['jshint', 'concat', 'uglify', 'jekyll:dev'],
                 options: {
                     spawn: false,
