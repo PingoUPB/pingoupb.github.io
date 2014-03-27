@@ -16,3 +16,16 @@ html {
 p {
 	line-height: 1.5em;
 }
+
+a {
+	color: $base-brand-color;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.muted-link {
+	color: $base-font-color;
+}

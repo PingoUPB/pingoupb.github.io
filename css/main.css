@@ -1670,6 +1670,10 @@ ul, ol, dd {
   margin-left: 3rem;
 }
 
+.push--top {
+  margin-top: 24px;
+}
+
 /*! normalize.css v2.1.0 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -2058,6 +2062,18 @@ p {
   line-height: 1.5em;
 }
 
+a {
+  color: #002f6f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.muted-link {
+  color: #333435;
+}
+
 .button {
   padding: 1em 1.5em;
   border-radius: 4px;
@@ -2073,6 +2089,15 @@ p {
 }
 .button:hover {
   background-color: #e7e9ec;
+  text-decoration: none;
+}
+
+.button--primary {
+  background-color: #002f6f;
+  color: #fff;
+}
+.button--primary:hover {
+  background-color: #003e93;
 }
 
 .button--stripped {
@@ -2198,7 +2223,43 @@ h2 {
 .crowd-section__text {
   background: white;
   padding: 24px;
-  padding-bottom: 0;
+}
+
+/*------------------------------------*\
+    $CALL
+\*------------------------------------*/
+.call-section {
+  padding: 48px 0 24px;
+}
+
+.call-section__text {
+  text-align: center;
+}
+
+/*------------------------------------*\
+    $FOOTER
+\*------------------------------------*/
+.main-footer {
+  padding: 24px 0 0;
+  background: #333;
+  color: #fff;
+}
+.main-footer .centered {
+  background: url(../img/logo-muted.png) no-repeat center 62%;
+}
+.main-footer a {
+  color: #ccc;
+}
+
+.main-footer__links {
+  list-style: none;
+  padding: 0;
+}
+.main-footer__links li, .main-footer__links h1, .main-footer__links h2, .main-footer__links h3 {
+  line-height: 28px;
+}
+.main-footer__links .push--top {
+  margin-top: 28px;
 }
 
 /*------------------------------------*\
@@ -2215,7 +2276,7 @@ h2 {
     background-size: 100% 100%;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .landing-header {
     background-image: radial-gradient(ellipse at bottom right, #80bfe0 0%, #002f6f 53%, #001c41 100%);
     padding: 48px 0;
@@ -2223,6 +2284,14 @@ h2 {
 
   .macbook-section__text {
     margin: 0;
+  }
+
+  .main-footer__links .push--top {
+    margin-top: 0;
+  }
+
+  .main-footer .centered {
+    background-image: none;
   }
 }
 .main-nav {

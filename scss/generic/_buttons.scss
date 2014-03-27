@@ -13,6 +13,16 @@
 
 	&:hover {
 		background-color: darken($base-ui-color, 5%);
+		text-decoration: none;
+	}
+}
+
+.button--primary {
+	background-color: $base-brand-color;
+	color: #fff;
+
+	&:hover {
+		background-color: lighten($base-brand-color, 7%);
 	}
 }
 

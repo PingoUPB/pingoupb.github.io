@@ -89,10 +89,55 @@
 .crowd-section__text {
 	background: white;
 	padding: $base-spacing-unit;
-	padding-bottom: 0;
 }
 
 
+
+
+/*------------------------------------*\
+    $CALL
+\*------------------------------------*/
+.call-section {
+	padding: 2*$base-spacing-unit 0 $base-spacing-unit;
+}
+
+.call-section__text {
+	text-align: center;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $FOOTER
+\*------------------------------------*/
+.main-footer {
+	padding: $base-spacing-unit 0 0 ;
+	background: #333;
+	color: #fff;
+
+	.centered {
+		background: url(../img/logo-muted.png) no-repeat center 62%;
+	}
+
+	a {
+		color: #ccc;
+	}
+}
+
+.main-footer__links {
+	list-style: none;
+	padding: 0;
+
+	li, h1, h2, h3 {
+		line-height: 1.75*$base-font-size;
+	}
+
+	.push--top {
+		margin-top: 1.75*$base-font-size;
+	}
+}
 
 /*------------------------------------*\
     $MEDIA-QUERIES
@@ -110,7 +155,7 @@
 	} 
 }
 
-@media only screen and #{nth(nth($breakpoints, 2), 2)} { // lap breakpoint
+@media only screen and #{nth(nth($breakpoints, 3), 2)} { // portable breakpoint
 	.landing-header {
 		background-image: radial-gradient(ellipse at bottom right, #80bfe0 0%,#002f6f 53%,#001c41 100%);
 		padding: 2*$base-spacing-unit 0;
@@ -118,5 +163,13 @@
 
 	.macbook-section__text  { 
 		margin: 0;
+	}
+
+	.main-footer__links .push--top {
+		margin-top: 0;
+	}
+
+	.main-footer .centered {
+		background-image: none;
 	}
 } 
