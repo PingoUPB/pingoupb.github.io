@@ -2288,6 +2288,10 @@ h2 {
     margin: 0;
   }
 
+  .macbook-section {
+    min-height: 0;
+  }
+
   .main-footer__links .push--top {
     margin-top: 0;
   }
