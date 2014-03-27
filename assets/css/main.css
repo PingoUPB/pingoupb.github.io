@@ -2212,7 +2212,7 @@ html {
 }
 
 .main-header--landing__title {
-  margin: 48px 0;
+  margin-bottom: 24px;
 }
 
 .main-header--landing__text {
