@@ -78,6 +78,23 @@
 
 
 /*------------------------------------*\
+    $CROWD
+\*------------------------------------*/
+.crowd-section {
+	background: url(../img/crowd.png) no-repeat center center;
+	background-size: cover;
+	min-height: 360px;
+}
+
+.crowd-section__text {
+	background: white;
+	padding: $base-spacing-unit;
+	padding-bottom: 0;
+}
+
+
+
+/*------------------------------------*\
     $MEDIA-QUERIES
 \*------------------------------------*/
 @media (min-device-pixel-ratio: 1.5), 

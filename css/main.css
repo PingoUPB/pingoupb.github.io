@@ -504,6 +504,130 @@
     width: 91.666%;
   }
 }
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /**
+   * Whole
+   */
+  .lap--one-whole {
+    width: 100%;
+  }
+
+  /**
+   * Halves
+   */
+  .lap--one-half, .lap--two-quarters, .lap--three-sixths, .lap--four-eighths, .lap--five-tenths, .lap--six-twelfths {
+    width: 50%;
+  }
+
+  /**
+   * Thirds
+   */
+  .lap--one-third, .lap--two-sixths, .lap--four-twelfths {
+    width: 33.333%;
+  }
+
+  .lap--two-thirds, .lap--four-sixths, .lap--eight-twelfths {
+    width: 66.666%;
+  }
+
+  /**
+   * Quarters
+   */
+  .lap--one-quarter, .lap--two-eighths, .lap--three-twelfths {
+    width: 25%;
+  }
+
+  .lap--three-quarters, .lap--six-eighths, .lap--nine-twelfths {
+    width: 75%;
+  }
+
+  /**
+   * Fifths
+   */
+  .lap--one-fifth, .lap--two-tenths {
+    width: 20%;
+  }
+
+  .lap--two-fifths, .lap--four-tenths {
+    width: 40%;
+  }
+
+  .lap--three-fifths, .lap--six-tenths {
+    width: 60%;
+  }
+
+  .lap--four-fifths, .lap--eight-tenths {
+    width: 80%;
+  }
+
+  /**
+   * Sixths
+   */
+  .lap--one-sixth, .lap--two-twelfths {
+    width: 16.666%;
+  }
+
+  .lap--five-sixths, .lap--ten-twelfths {
+    width: 83.333%;
+  }
+
+  /**
+   * Eighths
+   */
+  .lap--one-eighth {
+    width: 12.5%;
+  }
+
+  .lap--three-eighths {
+    width: 37.5%;
+  }
+
+  .lap--five-eighths {
+    width: 62.5%;
+  }
+
+  .lap--seven-eighths {
+    width: 87.5%;
+  }
+
+  /**
+   * Tenths
+   */
+  .lap--one-tenth {
+    width: 10%;
+  }
+
+  .lap--three-tenths {
+    width: 30%;
+  }
+
+  .lap--seven-tenths {
+    width: 70%;
+  }
+
+  .lap--nine-tenths {
+    width: 90%;
+  }
+
+  /**
+   * Twelfths
+   */
+  .lap--one-twelfth {
+    width: 8.333%;
+  }
+
+  .lap--five-twelfths {
+    width: 41.666%;
+  }
+
+  .lap--seven-twelfths {
+    width: 58.333%;
+  }
+
+  .lap--eleven-twelfths {
+    width: 91.666%;
+  }
+}
 @media only screen and (max-width: 767px) {
   /**
    * Whole
@@ -1012,6 +1136,130 @@
     left: 91.666%;
   }
 }
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /**
+   * Whole
+   */
+  .push--lap--one-whole {
+    left: 100%;
+  }
+
+  /**
+   * Halves
+   */
+  .push--lap--one-half, .push--lap--two-quarters, .push--lap--three-sixths, .push--lap--four-eighths, .push--lap--five-tenths, .push--lap--six-twelfths {
+    left: 50%;
+  }
+
+  /**
+   * Thirds
+   */
+  .push--lap--one-third, .push--lap--two-sixths, .push--lap--four-twelfths {
+    left: 33.333%;
+  }
+
+  .push--lap--two-thirds, .push--lap--four-sixths, .push--lap--eight-twelfths {
+    left: 66.666%;
+  }
+
+  /**
+   * Quarters
+   */
+  .push--lap--one-quarter, .push--lap--two-eighths, .push--lap--three-twelfths {
+    left: 25%;
+  }
+
+  .push--lap--three-quarters, .push--lap--six-eighths, .push--lap--nine-twelfths {
+    left: 75%;
+  }
+
+  /**
+   * Fifths
+   */
+  .push--lap--one-fifth, .push--lap--two-tenths {
+    left: 20%;
+  }
+
+  .push--lap--two-fifths, .push--lap--four-tenths {
+    left: 40%;
+  }
+
+  .push--lap--three-fifths, .push--lap--six-tenths {
+    left: 60%;
+  }
+
+  .push--lap--four-fifths, .push--lap--eight-tenths {
+    left: 80%;
+  }
+
+  /**
+   * Sixths
+   */
+  .push--lap--one-sixth, .push--lap--two-twelfths {
+    left: 16.666%;
+  }
+
+  .push--lap--five-sixths, .push--lap--ten-twelfths {
+    left: 83.333%;
+  }
+
+  /**
+   * Eighths
+   */
+  .push--lap--one-eighth {
+    left: 12.5%;
+  }
+
+  .push--lap--three-eighths {
+    left: 37.5%;
+  }
+
+  .push--lap--five-eighths {
+    left: 62.5%;
+  }
+
+  .push--lap--seven-eighths {
+    left: 87.5%;
+  }
+
+  /**
+   * Tenths
+   */
+  .push--lap--one-tenth {
+    left: 10%;
+  }
+
+  .push--lap--three-tenths {
+    left: 30%;
+  }
+
+  .push--lap--seven-tenths {
+    left: 70%;
+  }
+
+  .push--lap--nine-tenths {
+    left: 90%;
+  }
+
+  /**
+   * Twelfths
+   */
+  .push--lap--one-twelfth {
+    left: 8.333%;
+  }
+
+  .push--lap--five-twelfths {
+    left: 41.666%;
+  }
+
+  .push--lap--seven-twelfths {
+    left: 58.333%;
+  }
+
+  .push--lap--eleven-twelfths {
+    left: 91.666%;
+  }
+}
 @media only screen and (max-width: 767px) {
   /**
    * Whole
@@ -1274,6 +1522,11 @@
  */
 @media only screen and (max-width: 480px) {
   .palm--hide {
+    display: none;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .lap--hide {
     display: none;
   }
 }
@@ -1840,7 +2093,7 @@ p {
   border-color: #e7e9ec;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   .button {
     display: block;
     width: 100%;
@@ -1934,6 +2187,21 @@ h2 {
 }
 
 /*------------------------------------*\
+    $CROWD
+\*------------------------------------*/
+.crowd-section {
+  background: url(../img/crowd.png) no-repeat center center;
+  background-size: cover;
+  min-height: 360px;
+}
+
+.crowd-section__text {
+  background: white;
+  padding: 24px;
+  padding-bottom: 0;
+}
+
+/*------------------------------------*\
     $MEDIA-QUERIES
 \*------------------------------------*/
 @media (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
@@ -1947,7 +2215,7 @@ h2 {
     background-size: 100% 100%;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   .landing-header {
     background-image: radial-gradient(ellipse at bottom right, #80bfe0 0%, #002f6f 53%, #001c41 100%);
     padding: 48px 0;
