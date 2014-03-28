@@ -142,6 +142,13 @@
   /* [2] */
   margin-left: -24px;
   /* [3] */
+  letter-spacing: -0.31em;
+}
+
+/* Opera hack */
+.opera:-o-prefocus,
+.grid {
+  word-spacing: -0.43em;
 }
 
 /**
@@ -165,6 +172,8 @@
   /* [5] */
   box-sizing: border-box;
   /* [5] */
+  letter-spacing: normal;
+  word-spacing: normal;
 }
 
 /**
@@ -2146,12 +2155,12 @@ h2 {
 /*------------------------------------*\
     $HEADER
 \*------------------------------------*/
-.main-header, .main-header--landing {
+.main-header {
   background-color: #002f6f;
-  background-image: -webkit-radial-gradient(90% 80%, ellipse, #80bfe0 0%, #002f6f 53%, #001c41 100%);
-  background-image: radial-gradient(ellipse at 90% 80%, #80bfe0 0%, #002f6f 53%, #001c41 100%);
   color: #fff;
   padding: 24px 0;
+  background-image: -webkit-radial-gradient(ellipse at bottom right, #80bfe0 0%, #002f6f 53%, #001c41 100%);
+  background-image: radial-gradient(ellipse at bottom right, #80bfe0 0%, #002f6f 53%, #001c41 100%);
 }
 
 .main-header__title {
@@ -2207,6 +2216,8 @@ html {
 .main-header--landing {
   padding: 48px 0 144px;
   color: #bcc7d7;
+  background-image: -webkit-radial-gradient(90% 80%, ellipse, #80bfe0 0%, #002f6f 53%, #001c41 100%);
+  background-image: radial-gradient(ellipse at 90% 80%, #80bfe0 0%, #002f6f 53%, #001c41 100%);
 }
 
 .main-header--landing__logo {
@@ -2307,9 +2318,9 @@ html {
   }
 }
 @media only screen and (max-width: 767px) {
-  .landing-header {
-    background-image: -webkit-radial-gradient(ellipse at bottom right, #80bfe0 0%, #002f6f 53%, #001c41 100%);
-    background-image: radial-gradient(ellipse at bottom right, #80bfe0 0%, #002f6f 53%, #001c41 100%);
+  .main-header {
+    background-image: -webkit-radial-gradient(90% 80%, ellipse, #80bfe0 0%, #002f6f 53%, #001c41 100%);
+    background-image: radial-gradient(ellipse at 90% 80%, #80bfe0 0%, #002f6f 53%, #001c41 100%);
     padding: 48px 0;
   }
 
@@ -2339,4 +2350,21 @@ html {
 }
 .main-nav a:hover {
   background-color: #eff1f2;
+}
+
+.people-list__item {
+  text-align: center;
+}
+
+.people-list__photo {
+  width: 90px;
+  height: 120px;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.people-list__name {
+  display: block;
 }

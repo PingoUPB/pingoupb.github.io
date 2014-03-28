@@ -88,7 +88,7 @@ module.exports = function(grunt) {
                 }
             },
             html: {
-                files: ['**/*.html', '**/*.md', '!_site/**/*.html'],
+                files: ['**/*.html', '**/*.md', '_data/*.yml', '!_site/**/*.html'],
                 tasks: ['jekyll:dev'],
                 options: {
                     spawn: false,

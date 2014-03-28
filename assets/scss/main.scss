@@ -21,6 +21,7 @@ $base-font-color: #333435;
 $base-ui-color: #f5f6f7;
 $base-ui-radius: 4px;
 $push: true;
+$use-markup-fix: false;
 
 
 /* Load Frameworks
@@ -43,4 +44,5 @@ $push: true;
 @import "theme/layout";
 @import "theme/landing";
 @import "theme/main-nav";
+@import "theme/team";
 

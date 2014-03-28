@@ -1,0 +1,20 @@
+- name: Prof. Dr. Dennis Kundisch
+  task: Projektleitung
+  img: kundisch.jpg
+
+- name: Dipl.-Kfm. Philipp Herrmann
+  task: Projektleitung
+  img: herrmann.jpg
+
+- name: Michael Whittaker
+  task: Entwicklung
+  img: whittaker.jpg
+
+- name: Jürgen Neumann
+  task: Entwicklung
+  img: neumann.jpg
+
+- name: Christoph Bach
+  task: Entwicklung
+  img: bach.jpg
+

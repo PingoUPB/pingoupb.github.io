@@ -1,0 +1,16 @@
+.people-list__item {
+	text-align: center;
+}
+
+.people-list__photo {
+	width: 90px;
+	height: 120px;
+	background-position: center center;
+	background-size: cover;
+	border-radius: $base-ui-radius;
+	margin: 0 auto;
+}
+
+.people-list__name {
+	display: block;
+}
