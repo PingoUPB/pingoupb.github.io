@@ -2,4 +2,4 @@ name: PINGO
 markdown: redcarpet
 pygments: false
 include: [".htaccess"]
-exclude: ["scss", "node_modules", "bower_components", "package.json", "Gruntfile.js"]
+exclude: ["scss", "node_modules", "bower_components", "package.json", "gruntfile.js", "README.md"]

@@ -2,7 +2,6 @@
     $HEADER
 \*------------------------------------*/
 .main-header--landing {
-	@extend .main-header;
 	padding: 2*$base-spacing-unit 0 6*$base-spacing-unit;
 	color: #bcc7d7;
 }
@@ -125,7 +124,7 @@
 }
 
 @media only screen and #{nth(nth($breakpoints, 3), 2)} { // portable breakpoint
-	.landing-header {
+	.main-header
 		background-image: radial-gradient(ellipse at bottom right, #80bfe0 0%,#002f6f 53%,#001c41 100%);
 		padding: 2*$base-spacing-unit 0;
 	}
