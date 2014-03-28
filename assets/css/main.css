@@ -2304,7 +2304,7 @@ html {
     $MEDIA-QUERIES
 \*------------------------------------*/
 @media (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  .landing-header__phone {
+  .main-header--landing__phone {
     background: url(../img/phone@2x.png) no-repeat right center;
     background-size: 100% 100%;
   }
