@@ -2066,10 +2066,6 @@ html {
   position: relative;
 }
 
-p {
-  line-height: 1.5em;
-}
-
 a {
   color: #002f6f;
   text-decoration: none;
@@ -2080,6 +2076,24 @@ a:hover {
 
 .muted-link {
   color: #333435;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.muted, .people-list__meta {
+  color: #4c4d4f;
+}
+
+.smaller, .people-list__meta {
+  font-size: 12px;
 }
 
 .button {
@@ -2352,8 +2366,14 @@ html {
   background-color: #eff1f2;
 }
 
+.people-list {
+  margin-top: -48px;
+}
+
 .people-list__item {
-  text-align: center;
+  margin-bottom: 24px;
+  position: relative;
+  min-height: 120px;
 }
 
 .people-list__photo {
@@ -2362,9 +2382,19 @@ html {
   background-position: center center;
   background-size: cover;
   border-radius: 4px;
-  margin: 0 auto;
+  position: absolute;
+  left: 24px;
+}
+
+.people-list__desc {
+  padding-left: 114px;
+  margin: 0;
 }
 
 .people-list__name {
   display: block;
+}
+
+.people-list__separator {
+  margin-top: 48px;
 }

@@ -1,5 +1,11 @@
+.people-list {
+	margin-top: -2*$base-spacing-unit;
+}
+
 .people-list__item {
-	text-align: center;
+	margin-bottom: $base-spacing-unit;
+	position: relative;
+	min-height: 120px;
 }
 
 .people-list__photo {
@@ -8,9 +14,24 @@
 	background-position: center center;
 	background-size: cover;
 	border-radius: $base-ui-radius;
-	margin: 0 auto;
+	position: absolute;
+	left: $base-spacing-unit;
+}
+
+.people-list__desc {
+	padding-left: 90px + $base-spacing-unit;
+	margin: 0;
 }
 
 .people-list__name {
 	display: block;
+}
+
+.people-list__meta {
+	@extend .muted;
+	@extend .smaller;
+}
+
+.people-list__separator {
+	margin-top: 2* $base-spacing-unit;
 }

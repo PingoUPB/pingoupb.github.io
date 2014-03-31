@@ -13,10 +13,6 @@ html {
 	position: relative;
 }
 
-p {
-	line-height: 1.5em;
-}
-
 a {
 	color: $base-brand-color;
 	text-decoration: none;
@@ -28,4 +24,22 @@ a {
 
 .muted-link {
 	color: $base-font-color;
+}
+
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table; 
+}
+
+.cf:after {
+	clear: both;
+}
+
+.muted {
+	color: lighten($base-font-color, 10%);
+}
+
+.smaller {
+	font-size: 0.75*$base-font-size;
 }
