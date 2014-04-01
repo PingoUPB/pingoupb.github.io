@@ -2391,6 +2391,10 @@ html {
   display: block;
 }
 
+.people-list__meta {
+  display: block;
+}
+
 .people-list__separator {
   margin-top: 48px;
 }

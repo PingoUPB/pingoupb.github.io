@@ -30,6 +30,7 @@
 .people-list__meta {
 	@extend .muted;
 	@extend .smaller;
+	display: block;
 }
 
 .people-list__separator {
