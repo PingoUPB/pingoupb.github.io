@@ -7,7 +7,11 @@
 		text-decoration: none;
 
 		&:hover {
-			background-color: darken($base-ui-color, 2%);
+			background-color: darken($base-ui-color, 4%);
 		}
+	}
+
+	.active a {
+		background-color: darken($base-ui-color, 4%);
 	}
 }

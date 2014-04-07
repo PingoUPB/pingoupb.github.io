@@ -2287,8 +2287,71 @@ html {
   width: 362px;
   height: 759px;
   background: url(../img/phone.png) no-repeat right center;
+  -webkit-animation: phone--slidein 1s ease;
+  animation: phone--slidein 1s ease;
 }
 
+.main-header--landing__desc {
+  -webkit-animation: slide-in--left 1s ease;
+  animation: slide-in--left 1s ease;
+  position: relative;
+}
+
+@-webkit-keyframes phone--slidein {
+  from {
+    right: -100px;
+    opacity: 0;
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+
+  to {
+    right: 0;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes phone--slidein {
+  from {
+    right: -100px;
+    opacity: 0;
+    -webkit-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+
+  to {
+    right: 0;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes slide-in--left {
+  from {
+    left: -50px;
+    opacity: 0;
+  }
+
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+@keyframes slide-in--left {
+  from {
+    left: -50px;
+    opacity: 0;
+  }
+
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
 /*------------------------------------*\
     $MACBOOK
 \*------------------------------------*/
@@ -2381,7 +2444,10 @@ html {
   text-decoration: none;
 }
 .main-nav a:hover {
-  background-color: #eff1f2;
+  background-color: #eaecee;
+}
+.main-nav .active a {
+  background-color: #eaecee;
 }
 
 .people-list {

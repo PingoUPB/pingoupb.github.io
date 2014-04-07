@@ -2284,8 +2284,38 @@ html {
   width: 362px;
   height: 759px;
   background: url(../img/phone.png) no-repeat right center;
+  animation: phone--slidein 1s ease;
 }
 
+.main-header--landing__desc {
+  animation: slide-in--left 1s ease;
+  position: relative;
+}
+
+@keyframes phone--slidein {
+  from {
+    right: -100px;
+    opacity: 0;
+    transform: rotate(2deg);
+  }
+
+  to {
+    right: 0;
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+@keyframes slide-in--left {
+  from {
+    left: -50px;
+    opacity: 0;
+  }
+
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
 /*------------------------------------*\
     $MACBOOK
 \*------------------------------------*/
@@ -2377,7 +2407,10 @@ html {
   text-decoration: none;
 }
 .main-nav a:hover {
-  background-color: #eff1f2;
+  background-color: #eaecee;
+}
+.main-nav .active a {
+  background-color: #eaecee;
 }
 
 .people-list {
