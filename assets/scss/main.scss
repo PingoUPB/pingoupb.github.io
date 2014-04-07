@@ -28,6 +28,7 @@ $use-markup-fix: false;
  * ====================================================
 */
 @import "vendor/csswizardry-grids";
+@import "vendor/batch";
 @import "generic/responsive-helpers";
 
 /* Load partials
@@ -45,4 +46,5 @@ $use-markup-fix: false;
 @import "theme/landing";
 @import "theme/main-nav";
 @import "theme/team";
+@import "theme/features";
 

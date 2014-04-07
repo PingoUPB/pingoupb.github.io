@@ -1,0 +1,18 @@
+.feature-list {
+	margin-top: 2*$base-spacing-unit;
+}
+
+.feature-list__item {
+	text-align: center;
+	margin-bottom: 2*$base-spacing-unit;
+}
+
+.feature-list__icon {
+	font-size: 4em;
+	display: block;
+	margin-bottom: $base-spacing-unit;
+}
+
+.call-section--features {
+	padding-top: 0;
+}

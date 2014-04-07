@@ -1,0 +1,17 @@
+@font-face{
+	font-family:Batch;
+	src:url('../fonts/batch.eot');
+	src:url('../fonts/batch.eot?#iefix') format('embedded-opentype'),
+	  url('../fonts/batch.woff') format('woff'),
+	  url('../fonts/batch.ttf') format('truetype'),
+	  url('../fonts/batch.svg#batchregular') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+.icon {
+	font-family: "Batch";
+	color: darken($base-ui-color, 10%);
+	line-height:1;
+	display:inline-block;
+}

@@ -1522,6 +1522,20 @@
 /**
  * Pull classes, to move grid items back to the left by certain amounts.
  */
+@font-face {
+  font-family: Batch;
+  src: url("../fonts/batch.eot");
+  src: url("../fonts/batch.eot?#iefix") format("embedded-opentype"), url("../fonts/batch.woff") format("woff"), url("../fonts/batch.ttf") format("truetype"), url("../fonts/batch.svg#batchregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.icon {
+  font-family: "Batch";
+  color: #d9dde0;
+  line-height: 1;
+  display: inline-block;
+}
+
 /*------------------------------------*\
     $HIDE
 \*------------------------------------*/
@@ -2096,6 +2110,10 @@ a:hover {
   font-size: 12px;
 }
 
+.align--center {
+  text-align: center;
+}
+
 .button {
   padding: 1em 1.5em;
   border-radius: 4px;
@@ -2401,4 +2419,23 @@ html {
 
 .people-list__separator {
   margin-top: 48px;
+}
+
+.feature-list {
+  margin-top: 48px;
+}
+
+.feature-list__item {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.feature-list__icon {
+  font-size: 4em;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.call-section--features {
+  padding-top: 0;
 }

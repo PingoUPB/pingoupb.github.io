@@ -1,0 +1,23 @@
+- title: Beliebige Sessions
+  desc: Erstellen Sie pro Veranstaltung eine Session, auf die Sie mit einer Identifikationsnummer immer wieder verweisen können.
+  icon: f029
+
+- title: Immer synchron
+  desc: Fragen und Meldungen werden direkt automatisch auf die Geräte der abstimmenden Personen gesendet, es ist kein Neuladen erforderlich.
+  icon: f0bb
+
+- title: Mobiloptimiert
+  desc: PINGO passt sich dem Benutzer an. Es sieht super auf mobilen Geräten aus und funktioniert ebenfalls auf dem Desktop hervorragend.
+  icon: F147
+
+- title: Intelligente Ergebnisse
+  desc: Antworten können als Diagramm, Histogramm oder Tagcloud dargestellt werden. Richtige Antworten lassen sich visuell hervorheben.
+  icon: F12D
+
+- title: Fragenkatalog
+  desc: Fragen lassen sich zur Vorbereitung in einem Katalog speichern, mit Schlagworten versehen und mit anderen Dozenten teilen.
+  icon: F109
+
+- title: Zuverlässig 
+  desc: PINGO wird in Deutschland in einem High-Performance-Cluster gehostet und überträgt Ihre sensiblen Daten stets verschlüsselt.
+  icon: F0C2
