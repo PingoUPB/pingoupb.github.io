@@ -2,6 +2,10 @@
   desc: Erstellen Sie pro Veranstaltung eine Session, auf die Sie mit einer Identifikationsnummer immer wieder verweisen können.
   icon: f029
 
+- title: Fragetypen
+  desc: Neben den gängigen Single- und Multiple-Choice Frage unterstützt PINGO auch Freitext- und numerische Fragen.
+  icon: F003
+
 - title: Immer synchron
   desc: Fragen und Meldungen werden direkt automatisch auf die Geräte der abstimmenden Personen gesendet, es ist kein Neuladen erforderlich.
   icon: f0bb
@@ -17,6 +21,14 @@
 - title: Fragenkatalog
   desc: Fragen lassen sich zur Vorbereitung in einem Katalog speichern, mit Schlagworten versehen und mit anderen Dozenten teilen.
   icon: F109
+
+- title: Import/Export
+  desc: PINGO unterstützt den Import und Export Ihrer Fragen und versteht gängige Formate wie Moodle XML, Aiken/Pearson, CSV und GIFT.
+  icon: F0BA
+
+- title: Unbegrenzt nutzbar
+  desc: Es können beliebig viele Personen an einer Umfrage teilnehmen und beliebig viel Fragen gestellt werden. PINGO ist kostenlos uneingeschränkt nutzbar.
+  icon: F045
 
 - title: Zuverlässig 
   desc: PINGO wird in Deutschland in einem High-Performance-Cluster gehostet und überträgt Ihre sensiblen Daten stets verschlüsselt.
