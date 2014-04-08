@@ -3,7 +3,7 @@
   icon: f029
 
 - title: Fragetypen
-  desc: Neben den gängigen Single- und Multiple-Choice Frage unterstützt PINGO auch Freitext- und numerische Fragen.
+  desc: Neben den gängigen Typen Single- und Multiple-Choice-Frage unterstützt PINGO auch Freitext- und numerische Schätzfragen.
   icon: F003
 
 - title: Immer synchron
