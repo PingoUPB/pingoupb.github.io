@@ -23,6 +23,11 @@
   img: bach.jpg
   chair: Lehrstuhl für Wirtschaftsinformatik 2, Information Management & E-Finance
 
+- name: Nils Dake
+  task: Entwicklung
+  img: dake.jpg
+  chair: Lehrstuhl für Wirtschaftsinformatik 2, Information Management & E-Finance
+
 - name: Prof. Dr. Marc Beutner
   task: Weitere Beteiligte
   img: beutner.gif
