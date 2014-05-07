@@ -2363,6 +2363,28 @@ html {
 }
 
 /*------------------------------------*\
+    $TESTIMONIALS
+\*------------------------------------*/
+.testimonials {
+  padding: 48px 0;
+  color: #4c4d4f;
+  background: #f5f6f7 url(../img/quote.svg) no-repeat -5% 150%;
+  background-size: auto 80%;
+}
+
+.testimonials__title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+
+.testimonials__author {
+  text-align: right;
+  font-style: italic;
+  color: #727476;
+}
+
+/*------------------------------------*\
     $MEDIA-QUERIES
 \*------------------------------------*/
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {

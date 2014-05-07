@@ -125,6 +125,30 @@
 
 
 
+/*------------------------------------*\
+    $TESTIMONIALS
+\*------------------------------------*/
+
+.testimonials {
+	padding: 2* $base-spacing-unit 0;
+	color: lighten($base-font-color, 10%);
+	background: $base-ui-color url(../img/quote.svg) no-repeat -5% 150%;
+	background-size: auto 80%;
+}
+
+.testimonials__title {
+	text-align:center;
+	font-weight: bold;
+	margin-bottom: 2*$base-spacing-unit;
+}
+
+.testimonials__author {
+	text-align: right;
+	font-style: italic;
+	color: lighten($base-font-color, 25%);
+}
+
+
 
 /*------------------------------------*\
     $MEDIA-QUERIES
