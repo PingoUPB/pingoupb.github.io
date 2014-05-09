@@ -1,49 +1,49 @@
 - name: Prof. Dr. Dennis Kundisch
   task: Projektleitung
   img: kundisch.jpg
-  chair: Lehrstuhl für Wirtschaftsinformatik 2, Information Management & E-Finance
+  chair: Lehrstuhl für Wirtschaftsinformatik, Information Management & E-Finance
 
 - name: Dipl.-Kfm. Philipp Herrmann
   task: Projektleitung
   img: herrmann.jpg
-  chair: Lehrstuhl für Wirtschaftsinformatik 2, Information Management & E-Finance
-
-- name: Michael Whittaker
-  task: Entwicklung
-  img: whittaker.jpg
-  chair: Lehrstuhl für Wirtschaftsinformatik 2, Information Management & E-Finance
-
-- name: Jürgen Neumann
-  task: Entwicklung
-  img: neumann.jpg
-  chair: Lehrstuhl für Wirtschaftsinformatik 2, Information Management & E-Finance
-
-- name: Christoph Bach
-  task: Entwicklung
-  img: bach.jpg
-  chair: Lehrstuhl für Wirtschaftsinformatik 2, Information Management & E-Finance
-
-- name: Nils Dake
-  task: Entwicklung
-  img: dake.jpg
-  chair: Lehrstuhl für Wirtschaftsinformatik 2, Information Management & E-Finance
+  chair: Lehrstuhl für Wirtschaftsinformatik, Information Management & E-Finance
 
 - name: Prof. Dr. Marc Beutner
-  task: Weitere Beteiligte
+  task: Didaktik
   img: beutner.gif
-  chair: Lehrstuhl für Wirtschaftspädagogik II
+  chair: Lehrstuhl für Wirtschaftspädagogik
 
 - name: Dr. Andrea Zoyke
-  task: Weitere Beteiligte
+  task: Didaktik
   img: zoyke.jpg
-  chair: Lehrstuhl für Wirtschaftspädagogik I
+  chair: Lehrstuhl für Wirtschaftspädagogik
 
 - name: Prof. Dr. Gregor Fels
-  task: Weitere Beteiligte
+  task: Didaktik
   img: fels.jpg
   chair: Department Chemie
 
 - name: Prof. Dr. Johannes Magenheim
-  task: Weitere Beteiligte
+  task: Didaktik
   img: magenheim.jpg
   chair: Fachgebiet Didaktik der Informatik
+
+- name: Michael Whittaker
+  task: Entwicklung
+  img: whittaker.jpg
+  chair: Lehrstuhl für Wirtschaftsinformatik, Information Management & E-Finance
+
+- name: Jürgen Neumann
+  task: Entwicklung
+  img: neumann.jpg
+  chair: Lehrstuhl für Wirtschaftsinformatik, Information Management & E-Finance
+
+- name: Christoph Bach
+  task: Entwicklung
+  img: bach.jpg
+  chair: Lehrstuhl für Wirtschaftsinformatik, Information Management & E-Finance
+
+- name: Nils Dake
+  task: Entwicklung
+  img: dake.jpg
+  chair: Lehrstuhl für Wirtschaftsinformatik, Information Management & E-Finance
