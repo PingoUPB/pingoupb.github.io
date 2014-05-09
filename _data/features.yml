@@ -1,22 +1,18 @@
-- title: Beliebige Sessions
-  desc: Erstellen Sie pro Veranstaltung eine Session, auf die Sie mit einer Identifikationsnummer immer wieder verweisen können.
-  icon: f029
+- title: Kostenlos
+  desc: PINGO wird an der Universität Paderborn entwickelt und als Service angeboten. Es ist kostenlos und ohne Installation uneingeschränkt nutzbar.
+  icon: F15C
+
+- title: Unbegrenzte Teilnehmer
+  desc: Es können beliebig viele Personen an einer Umfrage gleichzeitig teilnehmen. Durch PINGOs spezielle Architektur gibt es keine Einschränkungen.
+  icon: F045
+
+- title: Unbegrenzt viele Fragen
+  desc: Sie können beliebig viele Fragen erstellen, abspeichern und an die Teilnehmer stellen. Mit PINGO haben Sie alle Möglichkeiten.
+  icon: F0D4
 
 - title: Fragetypen
   desc: Neben den gängigen Typen Single- und Multiple-Choice-Frage unterstützt PINGO auch Freitext- und numerische Schätzfragen.
   icon: F003
-
-- title: Immer synchron
-  desc: Fragen und Meldungen werden direkt automatisch auf die Geräte der abstimmenden Personen gesendet, es ist kein Neuladen erforderlich.
-  icon: f0bb
-
-- title: Mobiloptimiert
-  desc: PINGO passt sich dem Benutzer an. Es sieht super auf mobilen Geräten aus und funktioniert ebenfalls auf dem Desktop hervorragend.
-  icon: F147
-
-- title: Intelligente Ergebnisse
-  desc: Antworten können als Diagramm, Histogramm oder Tagcloud dargestellt werden. Richtige Antworten lassen sich visuell hervorheben.
-  icon: F12D
 
 - title: Fragenkatalog
   desc: Fragen lassen sich zur Vorbereitung in einem Katalog speichern, mit Schlagworten versehen und mit anderen Dozenten teilen.
@@ -26,10 +22,26 @@
   desc: PINGO unterstützt den Import und Export Ihrer Fragen und versteht gängige Formate wie Moodle XML, Aiken/Pearson, CSV und GIFT.
   icon: F0BA
 
-- title: Unbegrenzt nutzbar
-  desc: Es können beliebig viele Personen an einer Umfrage teilnehmen und beliebig viel Fragen gestellt werden. PINGO ist kostenlos uneingeschränkt nutzbar.
-  icon: F045
+- title: Mobiloptimiert
+  desc: PINGO passt sich dem Benutzer an. Es sieht super auf mobilen Geräten aus und funktioniert ebenfalls auf dem Desktop hervorragend.
+  icon: F147
+
+- title: Immer synchron
+  desc: Fragen und Meldungen werden direkt automatisch auf die Geräte der abstimmenden Personen gesendet, es ist kein Neuladen erforderlich.
+  icon: f0bb
 
 - title: Zuverlässig 
   desc: PINGO wird in Deutschland in einem High-Performance-Cluster gehostet und überträgt Ihre sensiblen Daten stets verschlüsselt.
   icon: F0C2
+
+- title: Sessions
+  desc: Erstellen Sie pro Veranstaltung eine Session, auf die Sie mit einer Identifikationsnummer immer wieder verweisen können.
+  icon: f029
+
+- title: Powerpoint-Integration
+  desc: Mit PINGO Remote können Sie, ohne einen Browser öffnen zu müssen, direkt aus Ihrem Präsentationsprogramm heraus Umfragen durchführen.
+  icon: f12a
+
+- title: Intelligente Visualisierung
+  desc: Antworten können als Diagramm, Histogramm oder Tagcloud dargestellt werden. Richtige Antworten lassen sich visuell hervorheben.
+  icon: F12D
