@@ -2248,6 +2248,17 @@ html {
   color: #bcc7d7;
   background-image: radial-gradient(ellipse at 90% 80%, #80bfe0 0%, #002f6f 53%, #001c41 100%);
 }
+.main-header--landing a {
+  color: #fff;
+}
+
+.main-header--landing__lang {
+  float: right;
+  opacity: .6;
+  font-size: 13.6px;
+  line-height: 13.6px;
+  margin-top: -1em;
+}
 
 .main-header--landing__logo {
   margin-bottom: 48px;
@@ -2280,7 +2291,7 @@ html {
 .main-header--landing__phone {
   position: absolute;
   right: 0;
-  top: 48px;
+  top: 24px;
   width: 362px;
   height: 759px;
   background: url(../img/phone.png) no-repeat right center;
