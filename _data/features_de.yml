@@ -1,17 +1,17 @@
-- title: Kostenlos
-  desc: PINGO wird an der Universität Paderborn entwickelt und als Service angeboten. Es ist kostenlos und ohne Installation uneingeschränkt nutzbar.
+- title: Kostenlos uneingeschränkt nutzbar
+  desc: PINGO wird an der Universität Paderborn entwickelt und als Service angeboten. PINGO ist weltweit kostenlos und ohne Installation uneingeschränkt nutzbar.
   icon: F15C
 
-- title: Unbegrenzte Teilnehmer
-  desc: Es können beliebig viele Personen an einer Umfrage gleichzeitig teilnehmen. Durch PINGOs spezielle Architektur gibt es keine Einschränkungen.
+- title: Unbegrenzte Teilnehmerzahl
+  desc: Es können beliebig viele Personen gleichzeitig an einer Umfrage gleichzeitig teilnehmen. Durch PINGOs spezielle Architektur gibt es keine Einschränkungen.
   icon: F045
 
-- title: Unbegrenzt viele Fragen
+- title: Unbegrenzt viele <br> Fragen stellen
   desc: Sie können beliebig viele Fragen erstellen, abspeichern und an die Teilnehmer stellen. Mit PINGO haben Sie alle Möglichkeiten.
   icon: F0D4
 
 - title: Fragetypen
-  desc: Neben den gängigen Typen Single- und Multiple-Choice-Frage unterstützt PINGO auch Freitext- und numerische Schätzfragen.
+  desc: Neben den gängigen Typen Single- und Multiple-Choice-Frage kann PINGO auch Freitext- und numerische Schätzfragen – dabei  unterstützt PINGO natürlich auch die TeX-Notation.
   icon: F003
 
 - title: Fragenkatalog
@@ -23,11 +23,11 @@
   icon: F0BA
 
 - title: Mobiloptimiert
-  desc: PINGO passt sich dem Benutzer an. Es sieht super auf mobilen Geräten aus und funktioniert ebenfalls auf dem Desktop hervorragend.
+  desc: PINGO passt sich dem Benutzer an. Sie können PINGO problemlos mit mobilen Geräten und auch auf dem Desktop nutzen.
   icon: F147
 
 - title: Immer synchron
-  desc: Fragen und Meldungen werden direkt automatisch auf die Geräte der abstimmenden Personen gesendet, es ist kein Neuladen erforderlich.
+  desc: Fragen und Meldungen werden direkt automatisch auf die Geräte der abstimmenden Personen gesendet, es ist kein manuelles Neuladen erforderlich.
   icon: f0bb
 
 - title: Zuverlässig 
@@ -35,11 +35,11 @@
   icon: F0C2
 
 - title: Sessions
-  desc: Erstellen Sie pro Veranstaltung eine Session, auf die Sie mit einer Identifikationsnummer immer wieder verweisen können.
+  desc: Ordnen Sie Fragen eindeutig identifizierbaren Sessions zu. Nutzer können nach einmaliger Eingabe einer Identifikationsnummer sofort und einfach auf alle Fragen dieser Session antworten.
   icon: f029
 
 - title: Powerpoint-Integration
-  desc: Mit PINGO Remote können Sie, ohne einen Browser öffnen zu müssen, direkt aus Ihrem Präsentationsprogramm heraus Umfragen durchführen.
+  desc: 'Mit <a href="http://blogs.uni-paderborn.de/pingo/downloads/">PINGO Remote</a> können Sie, ohne einen Browser öffnen zu müssen, PINGO direkt aus Ihrem Präsentationsprogramm nutzen. <a href="http://blogs.uni-paderborn.de/pingo/downloads/">Zum Download ›</a>'
   icon: f12a
 
 - title: Intelligente Visualisierung
