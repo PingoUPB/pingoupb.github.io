@@ -1,47 +1,47 @@
-- title: Completely free
-  desc: PINGO wird an der Universität Paderborn entwickelt und als Service angeboten. Es ist kostenlos und ohne Installation uneingeschränkt nutzbar.
+- title: Completely free of charge
+  desc: PINGO was developed and is provided by the University of Paderborn. PINGO is free to use from anywhere around the world without any restrictions or installation.
   icon: F15C
 
-- title: Unlimited participants
-  desc: Es können beliebig viele Personen an einer Umfrage gleichzeitig teilnehmen. Durch PINGOs spezielle Architektur gibt es keine Einschränkungen.
+- title: Unlimited number of participants
+  desc: PINGO's unique architecture poses no limits to the number of participants that can participate in the same survey.
   icon: F045
 
-- title: Unlimited questions
-  desc: Sie können beliebig viele Fragen erstellen, abspeichern und an die Teilnehmer stellen. Mit PINGO haben Sie alle Möglichkeiten.
+- title: Unlimited number of questions
+  desc: PINGO offers you endless possibilities. You can prepare and save as many questions as you like, store and use them in a survey at any time.
   icon: F0D4
 
-- title: Fragetypen
-  desc: Neben den gängigen Typen Single- und Multiple-Choice-Frage unterstützt PINGO auch Freitext- und numerische Schätzfragen.
+- title: Type of questions
+  desc: With PINGO supporting the TeX format you are not limited to a close-ended, single- or multiple choice question format. You can also choose to include open and numerical questions in your surveys.
   icon: F003
 
-- title: Fragenkatalog
-  desc: Fragen lassen sich zur Vorbereitung in einem Katalog speichern, mit Schlagworten versehen und mit anderen Dozenten teilen.
+- title: Question catalogue
+  desc: You can store prepared questions in a catalogue, index them with keywords and share them with other lecturers.
   icon: F109
 
-- title: Import/Export
-  desc: PINGO unterstützt den Import und Export Ihrer Fragen und versteht gängige Formate wie Moodle XML, Aiken/Pearson, CSV und GIFT.
+- title: Import/export
+  desc: PINGO enabled the import and export of your questions and is compatible with common formats such as Moodle XML, Aiken/Pearson, CSV and GIFT.
   icon: F0BA
 
-- title: Mobiloptimiert
-  desc: PINGO passt sich dem Benutzer an. Es sieht super auf mobilen Geräten aus und funktioniert ebenfalls auf dem Desktop hervorragend.
+- title: Optimized for mobile
+  desc: PINGO adapts to its users. You can link PINGO up to mobile devices as well as to your desktop.
   icon: F147
 
-- title: Immer synchron
-  desc: Fragen und Meldungen werden direkt automatisch auf die Geräte der abstimmenden Personen gesendet, es ist kein Neuladen erforderlich.
+- title: Always in sync
+  desc: Questions automatically attune to the devices used by voting participants. Students do not need to do any manual synchronization.
   icon: f0bb
 
-- title: Zuverlässig 
-  desc: PINGO wird in Deutschland in einem High-Performance-Cluster gehostet und überträgt Ihre sensiblen Daten stets verschlüsselt.
+- title: Reliable and secure 
+  desc: PINGO is hosted by a German High-Performance-Cluster and all your sensitive data are systematically encrypted.
   icon: F0C2
 
 - title: Sessions
-  desc: Erstellen Sie pro Veranstaltung eine Session, auf die Sie mit einer Identifikationsnummer immer wieder verweisen können.
+  desc: You can assign questions to clearly identifiable sessions. After entering their personal identifier once, users can answer session questions straight away and throughout the session.
   icon: f029
 
-- title: Powerpoint-Integration
-  desc: Mit PINGO Remote können Sie, ohne einen Browser öffnen zu müssen, direkt aus Ihrem Präsentationsprogramm heraus Umfragen durchführen.
+- title: Powerpoint-integration
+  desc: 'With “<a href="http://blogs.uni-paderborn.de/pingo/downloads/">PINGO Remote</a>” you can, without having to open your browser, access/open PINGO directly from your presentation software. <a href="http://blogs.uni-paderborn.de/pingo/downloads/">Download here ›</a>'
   icon: f12a
 
-- title: Intelligente Visualisierung
-  desc: Antworten können als Diagramm, Histogramm oder Tagcloud dargestellt werden. Richtige Antworten lassen sich visuell hervorheben.
+- title: Intelligent visualization
+  desc: Answers can be presented in the form of a diagram, histogram or tagcloud. You can also highlight the correct answers.
   icon: F12D

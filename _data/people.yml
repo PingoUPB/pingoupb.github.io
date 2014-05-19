@@ -13,23 +13,23 @@
 - name: Prof. Dr. Marc Beutner
   task: Didactics
   img: beutner.gif
-  chair: Chair of Wirtschaftspädagogik
+  chair: Lehrstuhl für Wirtschaftspädagogik
   url: https://wiwi.uni-paderborn.de/department5/ls-beutner/beutner/
 
 - name: Dr. Andrea Zoyke
   task: Didactics
   img: zoyke.jpg
-  chair: Chair of Wirtschaftspädagogik
+  chair: Lehrstuhl für Wirtschaftspädagogik
   url: https://wiwi.uni-paderborn.de/department5/lehrstuhl-prof-dr-peter-f-e-sloane/zoyke0/
 
 - name: Prof. Dr. Gregor Fels
-  task: Didaktik
+  task: Didactics
   img: fels.jpg
-  chair: Organic chemistry
+  chair: Organische Chemie
   url: http://chemie.uni-paderborn.de/en/fachgebiete/oc/oc-fels/personen/prof-dr-gregor-fels/
 
 - name: Prof. Dr. Johannes Magenheim
-  task: Didaktik
+  task: Didactics
   img: magenheim.jpg
   chair: Fachgebiet Didaktik der Informatik
   url: http://ddi.uni-paderborn.de/personen/johannes-magenheim.html
