@@ -25,13 +25,13 @@
 - name: Prof. Dr. Gregor Fels
   task: Didactics
   img: fels.jpg
-  chair: Organische Chemie
+  chair: Organic Chemistry
   url: http://chemie.uni-paderborn.de/en/fachgebiete/oc/oc-fels/personen/prof-dr-gregor-fels/
 
 - name: Prof. Dr. Johannes Magenheim
   task: Didactics
   img: magenheim.jpg
-  chair: Fachgebiet Didaktik der Informatik
+  chair: Didactics of Informatics
   url: http://ddi.uni-paderborn.de/personen/johannes-magenheim.html
 
 - name: Michael Whittaker
