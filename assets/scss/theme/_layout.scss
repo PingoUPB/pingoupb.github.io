@@ -36,7 +36,7 @@ html {
 	width: 100%;
 
 	.centered {
-		background: url(../img/logo-muted.svg) no-repeat center 62%;
+		background: url(../img/logo-muted.svg) no-repeat right 62%;
 	}
 
 	a {
@@ -47,6 +47,7 @@ html {
 .main-footer__links {
 	list-style: none;
 	margin-left: 0;
+	color: #777;
 
 	li, h1, h2, h3 {
 		line-height: 1.75*$base-font-size;
@@ -55,6 +56,10 @@ html {
 	.push--top {
 		margin-top: 1.75*$base-font-size;
 	}
+}
+
+.main-footer__title {
+	color: #fff;
 }
 
 @media only screen and (min-width: 768px) {
