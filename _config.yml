@@ -2,7 +2,4 @@ name: PINGO
 markdown: redcarpet
 highlighter: null
 include: [".htaccess"]
-exclude: ["scss", "node_modules", "bower_components", "package.json", "gruntfile.js", "README.md"]
-sass:
-  sass_dir: assets/scss
-  style: compressed
+exclude: ["assets/scss", "node_modules", "bower_components", "package.json", "gulpfile.js", "README.md"]
