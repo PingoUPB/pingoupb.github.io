@@ -1,17 +1,66 @@
 .main-nav {
-	background-color: $base-ui-color;
+	background-color: $brand-color;
+	padding: 0.5* $base-spacing-unit 0;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1;
+	margin-left: -0.25*$base-spacing-unit;
+	text-align: left;
+	margin-bottom: 2*$base-spacing-unit;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 100;
+	transition: padding ease 300ms;
 
 	a {
-		color: #444546;
-		font-weight: bold;
 		text-decoration: none;
-
-		&:hover {
-			background-color: darken($base-ui-color, 4%);
-		}
+		padding: 0.5*$base-spacing-unit 0.75*$base-spacing-unit;
 	}
 
-	.active a {
-		background-color: darken($base-ui-color, 4%);
+	li {
+		margin-left: 0.25*$base-spacing-unit;
+	}
+}
+
+.main-nav__button {
+	background-color: transparentize($brand-color, 0.5);
+	border-radius: $base-ui-radius;
+
+	&:hover {
+		background-color: $brand-color;
+	}
+}
+
+a.main-nav__logo {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+
+	img {
+		height: 1.75*$base-spacing-unit;
+		transition: height ease 300ms;
+	}
+}
+
+@include grid-media-query('desk') {
+	.main-nav__links {
+		float: right;
+	}
+}
+
+.main-nav__links {
+	margin-bottom: 0;
+}
+
+
+
+.main-nav--header {
+	padding: $base-spacing-unit 0;
+	background-color: transparent;
+	@extend .cf;
+
+	a.main-nav__logo img {
+		height: 3.75*$base-spacing-unit;
 	}
 }

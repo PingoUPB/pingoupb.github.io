@@ -10,6 +10,7 @@
 	display: inline-block;
 	text-align: center;
 	box-sizing: border-box;
+	border: none;
 
 	&:hover {
 		background-color: darken($base-ui-color, 5%);
@@ -18,11 +19,11 @@
 }
 
 .button--primary {
-	background-color: $base-brand-color;
+	background-color: $brand-color;
 	color: #fff;
 
 	&:hover {
-		background-color: lighten($base-brand-color, 7%);
+		background-color: lighten($brand-color, 7%);
 	}
 }
 
@@ -46,7 +47,7 @@
 	}
 }
 
-@media only screen and #{nth(nth($breakpoints, 3), 2)} { // lap breakpoint
+@include grid-media-query('portable') {
 	.button {
 		display: block;
 		width: 100%;

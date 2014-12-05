@@ -1,0 +1,19 @@
+/* center a block element with a specified max-width */
+@mixin centered($width) {
+	max-width: $width;
+	padding-left: $base-spacing-unit;
+	padding-right: $base-spacing-unit;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+/* calculates line-height so that it fits the vertical rhythm */
+@mixin font-size($font-size, $line-height:true){
+	font-size:$font-size;
+	line-height:ceil($font-size / $base-line-height) * ($base-line-height / $font-size);
+}
+
+@mixin transition($prop) {
+	transition: $prop .25s ease;
+}

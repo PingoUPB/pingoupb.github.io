@@ -2,7 +2,7 @@
     $HEADER
 \*------------------------------------*/
 .main-header {
-	background-color: $base-brand-color; // fallback
+	background-color: $brand-color; // fallback
 	color: #fff;
 	padding: 1*$base-spacing-unit 0;
 	background-image: radial-gradient(ellipse at bottom right, #80bfe0 0%,#002f6f 53%,#001c41 100%);

@@ -1,9 +1,12 @@
-<nav class="main-nav">
+<nav class="main-nav {{ include.variant }}">
 	<div class="centered">
-		<ul class="main-nav__links nav">
-			<li{% if page.url == "/en/index.html" %} class="active" {% endif %}><a href="/">Home</a></li>
-			<li{% if page.url == "/en/features/index.html" %} class="active" {% endif %}><a href="/en/features">Features</a></li>
-			<li{% if page.url == "/en/team/index.html" %} class="active" {% endif %}><a href="/en/team">Team</a></li>
+		<a href="./" class="main-nav__logo">
+			<img src="/assets/img/logo.svg" alt="PINGO">
+		</a>
+		<ul class="main-nav__links nav--inline">
+			<li{% if page.url == "/en/features/index.html" %} class="active" {% endif %}><a href="/en/features">Tour</a></li>
+			<li{% if page.url == "/en/index.html" %} class="active" {% endif %}><a href="/">Help &amp; FAQ</a></li>
+			<li class="main-nav__button"><a href="#">Sign Up</a></li>
 		</ul>
 	</div>
 </nav>

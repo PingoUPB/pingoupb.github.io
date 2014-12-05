@@ -6,20 +6,20 @@ html {
 }
 
 .centered {
-	max-width: $base-page-width;
-	padding: 0 $base-spacing-unit;
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
+	@include centered($base-page-width);
 }
 
 a {
-	color: $base-brand-color;
-	text-decoration: none;
-
+	color: $brand-color;
+	@include transition(all);
+	
 	&:hover {
-		text-decoration: underline;
+		color: lighten($brand-color, 20%);
 	}
+}
+
+img {
+	margin-bottom: -4px; // prevent img tags from messing up baselines
 }
 
 .muted-link {
@@ -41,9 +41,17 @@ a {
 }
 
 .smaller {
-	font-size: 0.75*$base-font-size;
+	font-size: 0.875*$base-font-size;
 }
 
 .align--center {
 	text-align: center;
+}
+
+.nomargin {
+	margin: 0;
+}
+
+figure img {
+	margin-bottom: 0.5* $base-spacing-unit;
 }

@@ -1,17 +1,19 @@
 /*------------------------------------*\
     $HEADER
 \*------------------------------------*/
-.main-header--landing {
-	padding: 2*$base-spacing-unit 0 6*$base-spacing-unit;
-	color: #bcc7d7;
-	background-image: radial-gradient(ellipse at 90% 80%, #80bfe0 0%,#002f6f 53%,#001c41 100%);
+.landing-header {
+	padding: 6*$base-spacing-unit 0 6*$base-spacing-unit;
+	background: url(../img/crowd-blue.png) no-repeat top center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
 
 	a {
 		color: #fff;
 	}
 }
 
-.main-header--landing__lang {
+.landing-header__lang {
 	float: right;
 	opacity: .6;
 	font-size: 0.85 * $base-font-size;
@@ -19,21 +21,17 @@
 	margin-top: -1em;
 }
 
-.main-header--landing__logo {
+.landing-header__title {
+	@extend .kilo;
+	font-weight: 300;
+}
+
+.landing-header__text {
+	@extend .lead;
 	margin-bottom: 2*$base-spacing-unit;
 }
 
-.main-header--landing__title {
-	margin-bottom: $base-spacing-unit;
-}
-
-.main-header--landing__text {
-	font-size: 1.5em;
-	font-weight: 300;
-	margin-bottom: 3*$base-spacing-unit;
-}
-
-.main-header--landing__actions {
+.landing-header__actions {
 	.button {
 		border-color: #fff;
 		color: #fff;
@@ -52,33 +50,18 @@
 	}
 }
 
-.main-header--landing__phone {
-	position: absolute;
-	right: 0;
-	top: $base-spacing-unit;
-	width: 362px;
-	height: 759px;
-	background: url(../img/phone.png) no-repeat right center;
-	animation: phone--slidein 1s ease;
+.landing-header__desc  {
+	filter: blur(0px);
+	transform: scale(1);
+	animation: fadein ease 1.25s;
 }
 
-.main-header--landing__desc {
-	animation: slide-in--left 1s ease;
-	position:relative;
+@keyframes fadein {
+	0%   { filter: blur(10px); transform: scale(.5);}
+	50% { filter: blur(10px); }
+	70%  { transform: scale(1);}
+	100% { filter: blur(0px); }
 }
-
-@keyframes phone--slidein
-{
-	from {right:-100px;opacity: 0;transform: rotate(2deg)}
-	to {right: 0; opacity: 1;transform: rotate(0deg)}
-}
-
-@keyframes slide-in--left
-{
-	from {left:-50px;opacity: 0;}
-	to {left: 0; opacity: 1;}
-}
-
 
 
 
