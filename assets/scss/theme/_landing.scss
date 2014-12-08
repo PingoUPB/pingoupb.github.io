@@ -2,7 +2,7 @@
     $HEADER
 \*------------------------------------*/
 .landing-header {
-	padding: 6*$base-spacing-unit 0 6*$base-spacing-unit;
+	padding: 7*$base-spacing-unit 0 5*$base-spacing-unit;
 	background: url(../img/crowd-blue.png) no-repeat top center;
 	background-size: cover;
 	color: #fff;
@@ -65,6 +65,29 @@
 
 
 
+
+/*------------------------------------*\
+    $HOW-IT-WORKS
+\*------------------------------------*/
+.how {
+	@extend .information-container;
+	text-align: center;
+}
+
+@include grid-media-query('desk') { 
+	.how__figure {
+		height: 10*$base-spacing-unit;
+		position: relative;
+
+		figcaption {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+	}
+}
+
+
 /*------------------------------------*\
     $CALL
 \*------------------------------------*/
@@ -105,41 +128,18 @@
 
 
 
+
 /*------------------------------------*\
     $MEDIA-QUERIES
 \*------------------------------------*/
-@media (-webkit-min-device-pixel-ratio: 1.5), 
-(min-resolution: 144dpi) {
-	.main-header--landing__phone {
-		background: url(../img/phone@2x.png) no-repeat right center;
-		background-size: 100% 100%;
+@include grid-media-query('portable') { 
+	.landing-header {
+		padding-top: 0;
+		padding-bottom: 3* $base-spacing-unit;
+	}
+	
+	.landing-header .main-nav {
+		margin-bottom: 3*$base-spacing-unit;
 	}
 
-	.macbook-section__bg {
-		background: url(../img/macbook@2x.png) no-repeat left top;
-		background-size: 100% 100%;
-	} 
-}
-
-@media only screen and #{nth(nth($breakpoints, 3), 2)} { // portable breakpoint
-	.main-header {
-		background-image: radial-gradient(ellipse at 100% 100%, #80bfe0 0%,#002f6f 53%,#001c41 100%);
-		padding: 2*$base-spacing-unit 0;
-	}
-
-	.macbook-section__text  { 
-		margin: 0;
-	}
-
-	.macbook-section {
-		min-height: 0;
-	}
-
-	.main-footer__links .push--top {
-		margin-top: 0;
-	}
-
-	.main-footer .centered {
-		background-image: none;
-	}
 } 

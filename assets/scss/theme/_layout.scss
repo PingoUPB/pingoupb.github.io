@@ -16,6 +16,14 @@
 
 
 
+/*------------------------------------*\
+    $PAGE
+\*------------------------------------*/
+.page {
+	padding-top: 2*$base-spacing-unit; 
+}
+
+
 
 
 /*------------------------------------*\
@@ -41,6 +49,11 @@ html {
 
 	a {
 		color: #ccc;
+		text-decoration: none;
+
+		&:hover {
+			color: #fff;
+		}
 	}
 }
 
@@ -62,8 +75,30 @@ html {
 	color: #fff;
 }
 
-@media only screen and (min-width: 768px) {
-	html {
-		padding-bottom: 8*$base-spacing-unit;
-	}
+
+
+
+
+/*------------------------------------*\
+    $INFORMATION CONTAINER
+\*------------------------------------*/
+.information-container {
+	padding: 3*$base-spacing-unit 0 2*$base-spacing-unit 0;
 }
+
+
+
+
+/*------------------------------------*\
+    $MEDIA-QUERIES
+\*------------------------------------*/
+@include grid-media-query('desk') { 
+
+	.page {
+		padding-top: 5*$base-spacing-unit; // fixed nav
+	}
+
+	html {
+		padding-bottom: 8*$base-spacing-unit; // footer spacing
+	}
+} 

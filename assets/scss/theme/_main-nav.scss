@@ -4,10 +4,8 @@
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 1;
-	margin-left: -0.25*$base-spacing-unit;
 	text-align: left;
-	margin-bottom: 2*$base-spacing-unit;
-	position: fixed;
+	position: static;
 	width: 100%;
 	top: 0;
 	z-index: 100;
@@ -16,9 +14,11 @@
 	a {
 		text-decoration: none;
 		padding: 0.5*$base-spacing-unit 0.75*$base-spacing-unit;
+		color: #fff;
 	}
 
 	li {
+		position: relative;
 		margin-left: 0.25*$base-spacing-unit;
 	}
 }
@@ -26,10 +26,15 @@
 .main-nav__button {
 	background-color: transparentize($brand-color, 0.5);
 	border-radius: $base-ui-radius;
+	border: 2px solid #fff;
 
 	&:hover {
 		background-color: $brand-color;
 	}
+}
+
+.main-nav--header .main-nav__button {
+	border-color: transparent;
 }
 
 a.main-nav__logo {
@@ -43,24 +48,43 @@ a.main-nav__logo {
 	}
 }
 
-@include grid-media-query('desk') {
-	.main-nav__links {
-		float: right;
-	}
-}
-
 .main-nav__links {
 	margin-bottom: 0;
+	float: right;
 }
 
 
 
-.main-nav--header {
-	padding: $base-spacing-unit 0;
-	background-color: transparent;
-	@extend .cf;
 
-	a.main-nav__logo img {
-		height: 3.75*$base-spacing-unit;
+@include grid-media-query('desk') {
+	.main-nav {
+		position: fixed;
+
+		.active::after  {
+			content: " ";
+			border: 8px solid transparent;
+			border-bottom-color: #fff;
+			position: absolute;
+			bottom: -0.6*$base-spacing-unit;
+			left: 50%;
+			margin-left: -8px;
+		}
+	}
+
+	.main-nav--header {
+		padding: $base-spacing-unit 0;
+		background-color: transparent;
+		@extend .cf;
+
+		a.main-nav__logo img {
+			height: 3.75*$base-spacing-unit;
+		}
+	}
+
+}
+
+@include grid-media-query('palm') {
+	.main-nav__links {
+		float: none;
 	}
 }

@@ -22,9 +22,3 @@
 .grid__item img {
 	max-width: 100%;
 }
-
-@include grid-media-query('palm') {
-	.grid__item img {
-		width: 100%;
-	}
-}

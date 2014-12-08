@@ -12,6 +12,7 @@ html {
 a {
 	color: $brand-color;
 	@include transition(all);
+	text-decoration: none;
 	
 	&:hover {
 		color: lighten($brand-color, 20%);
