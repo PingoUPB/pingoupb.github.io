@@ -1,6 +1,4 @@
-.main-nav {
-	background-color: $brand-color;
-	padding: 0.5* $base-spacing-unit 0;
+%nav-bar {
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 1;
@@ -10,6 +8,12 @@
 	top: 0;
 	z-index: 100;
 	transition: padding ease 300ms;
+}
+
+.main-nav {
+	background-color: $brand-color;
+	padding: 0.5* $base-spacing-unit 0;
+	@extend %nav-bar;
 
 	a {
 		text-decoration: none;
@@ -48,7 +52,7 @@ a.main-nav__logo {
 	}
 }
 
-.main-nav__links {
+.main-nav__links{
 	margin-bottom: 0;
 	float: right;
 }
@@ -56,19 +60,43 @@ a.main-nav__logo {
 
 
 
+.sub-nav {
+	background: $base-ui-color;
+	@extend %nav-bar;
+	top: 2.85*$base-spacing-unit;
+	border-bottom: 2px solid #fff;
+
+	a {
+		padding: 0.75 * $base-spacing-unit;
+	}
+}
+
+.sub-nav__links {
+	margin-bottom: 0;
+
+	.active a {
+		background-color: lighten($base-ui-color, 5%);
+	}
+}
+
+
+
+
 @include grid-media-query('desk') {
 	.main-nav {
-		position: fixed;
-
 		.active::after  {
 			content: " ";
 			border: 8px solid transparent;
-			border-bottom-color: #fff;
+			border-bottom-color: $base-ui-color;
 			position: absolute;
 			bottom: -0.6*$base-spacing-unit;
 			left: 50%;
 			margin-left: -8px;
 		}
+	}
+
+	.main-nav, .sub-nav {
+		position: fixed;
 	}
 
 	.main-nav--header {

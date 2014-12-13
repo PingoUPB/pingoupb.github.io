@@ -95,7 +95,11 @@ html {
 @include grid-media-query('desk') { 
 
 	.page {
-		padding-top: 5*$base-spacing-unit; // fixed nav
+		padding-top: 7*$base-spacing-unit; // fixed nav
+	}
+
+	.page--container {
+		padding-top: 4*$base-spacing-unit;
 	}
 
 	html {

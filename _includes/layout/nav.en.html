@@ -4,9 +4,22 @@
 			<img src="/assets/img/logo.svg" alt="PINGO">
 		</a>
 		<ul class="main-nav__links nav--inline">
-			<li{% if page.url == "/en/features/index.html" %} class="active" {% endif %}><a href="/en/features">Tour</a></li>
+			<li{% if page.url == "/en/features/index.html" or page.url == "/en/tour/index.html" %} class="active" {% endif %}><a href="/en/tour">Tour</a></li>
 			<li{% if page.url == "/en/faq/index.html" %} class="active" {% endif %}><a href="/en/faq">Help &amp; FAQ</a></li>
 			<li class="main-nav__button"><a href="https://pingo.upb.de/users/sign_up?utm_source=landing-page&utm_medium=web&utm_campaign=lndng-btn-nav">Sign Up</a></li>
 		</ul>
 	</div>
 </nav>
+{% if (page.url == "/en/features/index.html" or page.url == "/en/tour/index.html") %}
+
+<nav class="sub-nav">
+	<div class="centered">
+		<ul class="sub-nav__links nav--inline">
+			<li{% if page.url == "/en/tour/index.html" %} class="active" {% endif %}><a href="/en/tour">Tour</a></li>
+			<li{% if page.url == "/en/features/index.html" %} class="active" {% endif %}><a href="/en/features">Features</a></li>
+		</ul>
+	</div> 
+</nav>
+
+{% endif %}
+

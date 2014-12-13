@@ -1,0 +1,7 @@
+.tour-section {
+	@extend .information-container;
+}
+
+.tour-section--odd {
+	background-color: $base-ui-color;
+}
