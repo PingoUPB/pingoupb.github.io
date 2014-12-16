@@ -10,6 +10,7 @@
 		</ul>
 	</div>
 </nav>
+
 {% if (page.url == "/en/features/index.html" or page.url == "/en/tour/index.html") %}
 
 <nav class="sub-nav">
@@ -17,6 +18,19 @@
 		<ul class="sub-nav__links nav--inline">
 			<li{% if page.url == "/en/tour/index.html" %} class="active" {% endif %}><a href="/en/tour">Tour</a></li>
 			<li{% if page.url == "/en/features/index.html" %} class="active" {% endif %}><a href="/en/features">Features</a></li>
+		</ul>
+	</div> 
+</nav>
+
+{% endif %}
+
+{% if (page.url == "/en/faq/index.html" or page.url == "/en/guide/index.html") %}
+
+<nav class="sub-nav">
+	<div class="centered">
+		<ul class="sub-nav__links nav--inline">
+			<li{% if page.url == "/en/faq/index.html" %} class="active" {% endif %}><a href="/en/faq">FAQ</a></li>
+			<li{% if page.url == "/en/tour/index.html" %} class="active" {% endif %}><a href="#">User Guide</a></li>
 		</ul>
 	</div> 
 </nav>
