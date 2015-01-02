@@ -1,5 +1,7 @@
-h1, .alphs {
+h1, .alpha {
 	font-weight: 300;
+	@include font-size(3*$base-font-size);
+	margin-bottom: 2*$base-spacing-unit;
 }
 
 h2, .beta {
