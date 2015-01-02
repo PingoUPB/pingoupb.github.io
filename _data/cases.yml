@@ -1,0 +1,11 @@
+- title: Higher Education
+  desc: PINGO is short for ”peer instruction for very large groups” and is particularly designed for use in higher education.
+  img: crowd-small.png
+
+- title: Schools/K12
+  desc: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+  img: school.png
+
+- title: Corporate Training
+  desc: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+  img: business.png

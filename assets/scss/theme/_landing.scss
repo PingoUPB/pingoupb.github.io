@@ -103,20 +103,75 @@
 
 
 /*------------------------------------*\
+    $USE-CASES
+\*------------------------------------*/
+
+.in-action-section {
+	@extend .information-container;
+	text-align: center;
+	background-color: $base-font-color;
+	color: #fff;
+	overflow: hidden;
+}
+
+.cases__item {
+	background: $base-ui-color;
+	color: $base-font-color;
+	text-align: left;
+	margin-bottom: $base-spacing-unit;
+	box-shadow: 0 3px 15px rgba(0,0,0,.85);
+	height: 19*$base-spacing-unit;
+	position: relative;
+
+	h2 {
+		font-weight: bold;
+		text-shadow: 0 0 3px $base-ui-color;
+	}
+}
+
+.cases__fade {
+	height: 8*$base-spacing-unit;
+	overflow: hidden;
+	position: relative;
+
+	&:after {
+		content: "";
+		width: 100%;
+		height: 100%;
+		top: 0;
+		position: absolute;
+		background-image: linear-gradient(0deg, $base-ui-color 0%, fade-out($base-ui-color, 1) 50%);
+	}
+}
+
+.cases__img {
+	height: 100%;
+	background-size: cover;
+}
+
+.cases__desc {
+	padding: $base-spacing-unit;
+	position: absolute;
+	bottom: 0;
+}
+
+
+
+
+
+/*------------------------------------*\
     $TESTIMONIALS
 \*------------------------------------*/
 
 .testimonials {
-	padding: 2* $base-spacing-unit 0;
-	color: lighten($base-font-color, 10%);
+	@extend .information-container;
 	background: $base-ui-color url(../img/quote.svg) no-repeat -5% 150%;
 	background-size: auto 80%;
 }
 
 .testimonials__title {
 	text-align:center;
-	font-weight: bold;
-	margin-bottom: 2*$base-spacing-unit;
+	color: $brand-color;
 }
 
 .testimonials__author {
@@ -143,3 +198,7 @@
 	}
 
 } 
+
+@include grid-media-query('desk') {
+	.cases__item { margin-bottom: -2*$base-spacing-unit; }
+}
