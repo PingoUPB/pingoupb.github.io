@@ -165,8 +165,20 @@
 
 .testimonials {
 	@extend .information-container;
-	background: $base-ui-color url(../img/quote.svg) no-repeat -5% 150%;
-	background-size: auto 80%;
+}
+
+.testimonials__item {
+	position: relative;
+	min-height: 11*$base-spacing-unit;
+	padding-bottom: 3* $base-spacing-unit;
+}
+
+.testimonials__border {
+	height: 0;
+	border: none;
+	border-bottom: 4px solid $base-ui-color;
+	margin-bottom: -2*$base-spacing-unit;
+	margin-top: $base-spacing-unit;
 }
 
 .testimonials__title {
@@ -179,6 +191,9 @@
 	font-style: italic;
 	color: lighten($base-font-color, 25%);
 	font-size: 0.85 * $base-font-size;
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 
 
