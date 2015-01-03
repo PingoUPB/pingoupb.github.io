@@ -1,3 +1,6 @@
+/*------------------------------------*\
+    $MAIN-NAV
+\*------------------------------------*/
 %nav-bar {
 	font-weight: bold;
 	font-size: 18px;
@@ -20,11 +23,6 @@
 		padding: 0.5*$base-spacing-unit 0.75*$base-spacing-unit;
 		color: #fff;
 	}
-
-	li {
-		position: relative;
-		margin-left: 0.25*$base-spacing-unit;
-	}
 }
 
 .main-nav__button {
@@ -35,10 +33,6 @@
 	&:hover {
 		background-color: $brand-color;
 	}
-}
-
-.main-nav--header .main-nav__button {
-	border-color: transparent;
 }
 
 a.main-nav__logo {
@@ -52,14 +46,12 @@ a.main-nav__logo {
 	}
 }
 
-.main-nav__links{
-	margin-bottom: 0;
-	float: right;
-}
 
 
 
-
+/*------------------------------------*\
+    $SUB-NAV
+\*------------------------------------*/
 .sub-nav {
 	background: $base-ui-color;
 	@extend %nav-bar;
@@ -82,6 +74,9 @@ a.main-nav__logo {
 
 
 
+/*------------------------------------*\
+    $MEDIA QUERIES
+\*------------------------------------*/
 @include grid-media-query('desk') {
 	.main-nav {
 		.active::after  {
@@ -93,6 +88,20 @@ a.main-nav__logo {
 			left: 50%;
 			margin-left: -8px;
 		}
+
+		li {
+			position: relative;
+			margin-left: 0.25*$base-spacing-unit;
+		}
+	}
+
+	.main-nav--header .main-nav__button {
+		border-color: transparent;
+	}
+
+	.main-nav__links{
+		margin-bottom: 0;
+		float: right;
 	}
 
 	.main-nav, .sub-nav {
@@ -111,8 +120,27 @@ a.main-nav__logo {
 
 }
 
-@include grid-media-query('palm') {
+@include grid-media-query('portable') {
+	.main-nav {
+		text-align: center;
+
+		li {
+			margin-left: 0;
+		}
+	}
+
+	a.main-nav__logo {
+		display: block;
+		width: 100%;
+		margin-bottom: 0.5*$base-spacing-unit;
+	}
+
 	.main-nav__links {
-		float: none;
+		margin-bottom: 0;
+		margin-left: 0;
+	}
+
+	.sub-nav {
+		text-align: center;
 	}
 }

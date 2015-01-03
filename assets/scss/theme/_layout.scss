@@ -29,19 +29,11 @@
 /*------------------------------------*\
     $FOOTER
 \*------------------------------------*/
-html {
-	position: relative;
-	box-sizing: border-box;
-	padding-bottom: 19*$base-spacing-unit;
-}
 
 .main-footer {
 	padding: $base-spacing-unit 0 0 ;
 	background: #333;
 	color: #fff;
-	position: absolute; 
-	bottom: 0;
-	width: 100%;
 
 	.centered {
 		background: url(../img/logo-muted.svg) no-repeat calc(100% - 24px) 62%;
@@ -100,9 +92,5 @@ html {
 
 	.page--container {
 		padding-top: 4*$base-spacing-unit;
-	}
-
-	html {
-		padding-bottom: 8*$base-spacing-unit; // footer spacing
 	}
 } 
