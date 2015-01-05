@@ -20,7 +20,8 @@
     $PAGE
 \*------------------------------------*/
 .page {
-	padding-top: 2*$base-spacing-unit; 
+	padding: 2*$base-spacing-unit 0 $base-spacing-unit; 
+	background-color: #fff;
 }
 
 
@@ -76,6 +77,7 @@
 \*------------------------------------*/
 .information-container {
 	padding: 3*$base-spacing-unit 0 2*$base-spacing-unit 0;
+	background-color: #fff;
 }
 
 
@@ -91,6 +93,6 @@
 	}
 
 	.page--container {
-		padding-top: 4*$base-spacing-unit;
+		padding-top: 4*$base-spacing-unit; 
 	}
 } 

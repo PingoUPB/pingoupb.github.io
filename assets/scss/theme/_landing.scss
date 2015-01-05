@@ -91,7 +91,7 @@
     $CALL
 \*------------------------------------*/
 .call-section {
-	padding: 2*$base-spacing-unit 0 $base-spacing-unit;
+	@extend .information-container;
 }
 
 .call-section__text {
