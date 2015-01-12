@@ -5,3 +5,12 @@
 .tour-section--odd {
 	background-color: $base-ui-color;
 }
+
+.tour-section--bars .centered {
+	background: url(../img/bars.svg) no-repeat right bottom;
+}
+
+.example-question {
+	text-align: center;
+	font-style: italic;
+}

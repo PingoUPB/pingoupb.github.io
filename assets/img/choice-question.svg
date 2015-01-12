@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="456px" height="284px"
+	 viewBox="0 0 456 284" enable-background="new 0 0 456 284" xml:space="preserve">
+<title>choice-question</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="choice-question" sketch:type="MSArtboardGroup">
+		<rect id="Rectangle-5" x="0" sketch:type="MSShapeGroup" fill="#002F6F" width="456" height="284">
+		</rect>
+		<text transform="matrix(1 0 0 1 140.9998 45)" fill="#FFFFFF" font-family="'FiraSans-Bold'" font-size="20">What’s your major?</text>
+		<text transform="matrix(1 0 0 1 65.1047 239)" fill="#FFFFFF" font-family="'FiraSans'" font-size="14">Computer </text>
+		<text transform="matrix(1 0 0 1 72.3708 261)" fill="#FFFFFF" font-family="'FiraSans'" font-size="14">Science</text>
+		<text transform="matrix(1 0 0 1 156.1467 239)" fill="#FFFFFF" font-family="'FiraSans'" font-size="14">Internat.</text>
+		<text transform="matrix(1 0 0 1 211.8518 239)" fill="#FFFFFF" font-family="'FiraSans'" font-size="14"> </text>
+		<text transform="matrix(1 0 0 1 155.762 261)" fill="#FFFFFF" font-family="'FiraSans'" font-size="14">Business</text>
+		<text transform="matrix(1 0 0 1 327.0081 239)" fill="#FFFFFF" font-family="'FiraSans'" font-size="14">Economics</text>
+		<text transform="matrix(1 0 0 1 234.6086 239)" fill="#FFFFFF" font-family="'FiraSans'" font-size="14">Information</text>
+		<text transform="matrix(1 0 0 1 310.3899 239)" fill="#FFFFFF" font-family="'FiraSans'" font-size="14"> </text>
+		<text transform="matrix(1 0 0 1 246.3547 261)" fill="#FFFFFF" font-family="'FiraSans'" font-size="14">Systems</text>
+		<path id="Line" sketch:type="MSShapeGroup" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" d="M24.5,212
+			H432"/>
+		<rect id="Rectangle-1" x="71.5" y="69" sketch:type="MSShapeGroup" fill="#FFFFFF" width="50" height="143">
+		</rect>
+		<rect id="Rectangle-1_1_" x="159.5" y="111" sketch:type="MSShapeGroup" fill="#FFFFFF" width="50" height="101">
+		</rect>
+		<rect id="Rectangle-1_2_" x="247.5" y="139" sketch:type="MSShapeGroup" fill="#FFFFFF" width="50" height="73">
+		</rect>
+		<rect id="Rectangle-1_3_" x="335.5" y="169" sketch:type="MSShapeGroup" fill="#FFFFFF" width="50" height="44">
+		</rect>
+	</g>
+</g>
+</svg>

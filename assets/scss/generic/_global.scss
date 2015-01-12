@@ -65,3 +65,9 @@ img {
 figure img {
 	margin-bottom: 0.5* $base-spacing-unit;
 }
+
+.vertical-center {
+	.grid__item {
+		vertical-align: middle;
+	}
+}
