@@ -71,3 +71,9 @@ figure img {
 		vertical-align: middle;
 	}
 }
+
+@include grid-media-query('portable') {
+	.portable--float-none {
+		float: none;
+	}
+}
