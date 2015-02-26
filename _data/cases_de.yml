@@ -1,0 +1,11 @@
+- title: Hochschule
+  desc: PINGO steht für ”peer instruction for very large groups” und ist insbesondere für die Verwendung an Hochschulen entwickelt worden.
+  img: crowd-small.png
+
+- title: Schule
+  desc: Nutzen Sie PINGO um den Lernstand Ihrer Klasse zu ermitteln, lassen sie Tagclouds generieren und erhalten Sie Feedback zum Unterricht.
+  img: school.png
+
+- title: Corporate Training
+  desc: "Erhöhen Sie die Effektivität Ihrer Workshops, sammeln sie Feedback und ermitteln Sie den Wissensstand Ihrer Teilnehmer."
+  img: business.png

@@ -18,7 +18,9 @@
 	opacity: .6;
 	font-size: 0.85 * $base-font-size;
 	line-height: 0.85 * $base-font-size;
-	margin-top: -1em;
+	margin-top: -3*$base-spacing-unit;
+	z-index: 110;
+	position: relative;
 }
 
 .landing-header__title {
@@ -71,19 +73,6 @@
 .how {
 	@extend .information-container;
 	text-align: center;
-}
-
-@include grid-media-query('desk') { 
-	.how__figure {
-		height: 10*$base-spacing-unit;
-		position: relative;
-
-		figcaption {
-			position: absolute;
-			bottom: 0;
-			width: 100%;
-		}
-	}
 }
 
 
@@ -178,6 +167,7 @@
 	border-bottom: 4px solid $base-ui-color;
 	margin-bottom: -2*$base-spacing-unit;
 	margin-top: $base-spacing-unit;
+	margin-left: $gutter;
 }
 
 .testimonials__title {
@@ -206,6 +196,12 @@
 		padding-top: 0;
 		padding-bottom: 3* $base-spacing-unit;
 	}
+
+	.landing-header__lang {
+		float: none;
+		margin-top: -2*$base-spacing-unit;
+		margin-bottom: $base-spacing-unit;
+	}
 	
 	.landing-header .main-nav {
 		margin-bottom: 3*$base-spacing-unit;
@@ -215,4 +211,15 @@
 
 @include grid-media-query('desk') {
 	.cases__item { margin-bottom: -2*$base-spacing-unit; }
+
+	.how__figure {
+		height: 10*$base-spacing-unit;
+		position: relative;
+
+		figcaption {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+	}
 }

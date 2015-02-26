@@ -3,39 +3,32 @@ layout: default.de
 title: Peer Instruction for very large Groups, Classroom-Response-System, Audience-Feedback
 ---
 
-<header class="main-header main-header--landing">
+<header class="landing-header">
+	{% include layout/nav.de.html variant="main-nav--header" %}
+
 	<div class="centered">
-		<div class="main-header--landing__lang">
-			<a href="../">Switch to English page &rsaquo;</a>
+		<div class="landing-header__lang" data-not-in-locale="de">
+			<a href="/">Switch to English page &rsaquo;</a>
 		</div>
-		<div class="grid">
-			<div class="grid__item one-half portable--one-whole main-header--landing__desc">
-			
-				<img src="/assets/img/logo.svg" alt="PINGO" class="main-header--landing__logo">
-				<h1 class="main-header__title main-header--landing__title">
-					Peer Instruction <br> for very large Groups
-				</h1>
-				<article class="main-header--landing__text">
-					<p>PINGO ist ein <strong>kostenloses</strong> Live-Feedback-System für die Lehre zur Aktivierung von Studierenden insbesondere in großen Lehrveranstaltungen. </p>
-				</article>
-				<div class="main-header--landing__actions">
-					<a class="button button--hollow" href="https://pingo.upb.de/users/sign_up?utm_source=landing-page&utm_medium=web&utm_campaign=lndng-btn-tp">Als Dozent anmelden</a>
-					<a class="button button--stripped" href="features">mehr erfahren &rsaquo;</a>
-				</div>
+		<div class="landing-header__desc">
+			<h1 class="landing-header__title">
+				Kostenloses Live-Feedback
+			</h1>
+
+			<article class="landing-header__text">
+				<p>Interagieren Sie mit ihrem Publikum. Mit PINGO können Sie einfach Fragen an Ihr Publikum stellen. Jeder, der ein internetfähiges Gerät besitzt kann sofort teilnehmen.</p>
+			</article>
+
+			<div class="landing-header__actions">
+				<a class="button button--hollow" href="https://pingo.upb.de/users/sign_up?utm_source=landing-page&utm_medium=web&utm_campaign=lndng-btn-tp">Kostenlos registrieren</a>
+				<a class="button button--stripped" href="tour">mehr erfahren &rsaquo;</a>
 			</div>
 		</div>
+
 	</div>
 </header>
 
-{% include layout/nav.de.html %}
+{% include container/how.de.html %}
+{% include container/in_action.de.html %}
 {% include container/testimonials.de.html %}
-
-<section class="call-section">
-	<article class="centered call-section__text">
-		<p><a class="button button--primary" href="https://pingo.upb.de/users/sign_up?utm_source=landing-page&utm_medium=web&utm_campaign=lndng-btn-bttm">Jetzt kostenlos anmelden</a>
-		</p>
-		<p>
-			<a href="features" class="muted-link">Noch nicht überzeugt? Jetzt alle Features von PINGO ansehen &rsaquo;</a>
-		</p>
-	</article>
-</section>
+{% include container/call.de.html %}
