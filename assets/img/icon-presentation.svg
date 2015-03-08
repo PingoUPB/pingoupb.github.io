@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="202px" height="144px" viewBox="0 0 202 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2 (9961) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-presentation</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-955.000000, -732.000000)" fill="#D8D8D8">
+            <g id="1-2-3" sketch:type="MSLayerGroup" transform="translate(240.000000, 551.000000)">
+                <path d="M755,261.039584 L755,206 L776,206 L776,261.075729 L788,261.096383 L788,221 L809,221 L809,261.132528 L821,261.153183 L821,234 L842,234 L842,261.189328 L856,261.213424 L856,211 L877,211 L877,261.249569 L898,261.285715 L897.998047,263 L732,262.714285 L732.001953,261 L748.313817,261.028076 L755,261.039584 Z M835,325 C835,321.039762 830.510965,317.617201 824,315.997497 L824,281 L807,281 L807,315.997497 L806.999999,315.9975 C800.489035,317.617201 796,321.039762 796,325 L835,325 L835,325 Z M720.990655,181 C717.682107,181 715,183.687681 715,186.993065 L715,275.006935 C715,278.316813 717.683972,281 720.990655,281 L911.009345,281 C914.317893,281 917,278.312319 917,275.006935 L917,186.993065 C917,183.683187 914.316028,181 911.009345,181 L720.990655,181 Z M723.005232,186 C721.897773,186 721,186.890762 721,188.005965 L721,273.994035 C721,275.101899 721.889391,276 723.005232,276 L908.994768,276 C910.102227,276 911,275.109238 911,273.994035 L911,188.005965 C911,186.898101 910.110609,186 908.994768,186 L723.005232,186 Z" id="presentation" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

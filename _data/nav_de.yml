@@ -1,0 +1,27 @@
+- title: Tour
+  url: /de/tour
+  parent: root
+
+- title: Hilfe & FAQ
+  url: /de/faq
+  parent: root
+
+- title: Tour
+  url: /de/tour
+  parent: /de/tour
+
+- title: Features
+  url: /de/features
+  parent: /de/tour
+
+- title: PINGO Remote
+  url: /de/powerpoint-remote
+  parent: /de/tour
+
+- title: FAQ
+  url: /de/faq
+  parent: /de/faq
+
+- title: User Guide
+  url: https://pingo.upb.de/tutorial/tutorial.html
+  parent: /de/faq

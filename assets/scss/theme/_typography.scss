@@ -1,4 +1,11 @@
-h2 {
+h1, .alpha {
 	font-weight: 300;
-	font-size: 1.75*$base-font-size;
+	@include font-size(3*$base-font-size);
+	margin-bottom: 2*$base-spacing-unit;
+}
+
+h2, .beta {
+	color: $brand-color;
+	@include font-size(1.5*$base-font-size);
+	font-weight: normal;
 }

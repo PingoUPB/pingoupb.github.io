@@ -1,0 +1,16 @@
+<section class="testimonials">
+	<div class="centered">
+		<h1 class="testimonials__title">Über 2500 Vortragende nutzen PINGO bereits</h1>
+		<div class="grid">
+
+			{% for q in site.data.testimonials_de %}
+			<article class="grid__item one-third portable--one-whole testimonials__item">
+				<p>
+					„{{ q.desc }}“
+				</p>
+				<p class="testimonials__author">—{{ q.author }}</p>
+			</article>
+			{% endfor %}
+		<hr class="testimonials__border">
+	</div>
+</section>

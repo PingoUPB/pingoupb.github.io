@@ -1,0 +1,20 @@
+<section class="in-action-section">
+	<div class="centered">
+		<h1 class="in-action__title">PINGO im Einsatz</h1>
+		<div class="grid cases">
+			{% for c in site.data.cases_de %}
+			<div class="grid__item one-third portable--one-whole">
+				<div class="cases__item">
+					<div class="cases__fade">
+						<div class="cases__img" style="background-image: url(/assets/img/{{ c.img }});"></div>
+					</div>
+					<div class="cases__desc">
+						<h2>{{ c.title }}</h2>
+						<p>{{ c.desc }}</p>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>

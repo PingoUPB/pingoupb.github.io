@@ -1,39 +1,38 @@
 /*------------------------------------*\
     $HEADER
 \*------------------------------------*/
-.main-header--landing {
-	padding: 2*$base-spacing-unit 0 6*$base-spacing-unit;
-	color: #bcc7d7;
-	background-image: radial-gradient(ellipse at 90% 80%, #80bfe0 0%,#002f6f 53%,#001c41 100%);
+.landing-header {
+	padding: 7*$base-spacing-unit 0 5*$base-spacing-unit;
+	background: url(../img/crowd-blue.png) no-repeat top center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
 
 	a {
 		color: #fff;
 	}
 }
 
-.main-header--landing__lang {
+.landing-header__lang {
 	float: right;
 	opacity: .6;
 	font-size: 0.85 * $base-font-size;
 	line-height: 0.85 * $base-font-size;
-	margin-top: -1em;
+	margin-top: -3*$base-spacing-unit;
+	z-index: 110;
+	position: relative;
 }
 
-.main-header--landing__logo {
+.landing-header__title {
+	font-weight: 300;
+}
+
+.landing-header__text {
+	@extend .lead;
 	margin-bottom: 2*$base-spacing-unit;
 }
 
-.main-header--landing__title {
-	margin-bottom: $base-spacing-unit;
-}
-
-.main-header--landing__text {
-	font-size: 1.5em;
-	font-weight: 300;
-	margin-bottom: 3*$base-spacing-unit;
-}
-
-.main-header--landing__actions {
+.landing-header__actions {
 	.button {
 		border-color: #fff;
 		color: #fff;
@@ -52,82 +51,36 @@
 	}
 }
 
-.main-header--landing__phone {
-	position: absolute;
-	right: 0;
-	top: $base-spacing-unit;
-	width: 362px;
-	height: 759px;
-	background: url(../img/phone.png) no-repeat right center;
-	animation: phone--slidein 1s ease;
+.landing-header__desc  {
+	filter: blur(0px);
+	transform: scale(1);
+	animation: fadein ease 1.25s;
 }
 
-.main-header--landing__desc {
-	animation: slide-in--left 1s ease;
-	position:relative;
-}
-
-@keyframes phone--slidein
-{
-	from {right:-100px;opacity: 0;transform: rotate(2deg)}
-	to {right: 0; opacity: 1;transform: rotate(0deg)}
-}
-
-@keyframes slide-in--left
-{
-	from {left:-50px;opacity: 0;}
-	to {left: 0; opacity: 1;}
+@keyframes fadein {
+	0%   { filter: blur(10px); transform: scale(.5);}
+	50% { filter: blur(10px); }
+	70%  { transform: scale(1);}
+	100% { filter: blur(0px); }
 }
 
 
 
 
 /*------------------------------------*\
-    $MACBOOK
+    $HOW-IT-WORKS
 \*------------------------------------*/
-.macbook-section {
-	margin: 2*$base-spacing-unit auto;
-	min-height: 544px;
+.how {
+	@extend .information-container;
+	text-align: center;
 }
-
-.macbook-section__bg {
-	background: url(../img/macbook.png) no-repeat left top;
-	width: 911px;
-	height: 544px;
-	position: absolute;
-	right: 50%;
-	top: 0;
-}
-
-.macbook-section__text {
-	margin: 5*$base-spacing-unit 0;
-}
-
-
-
-
-/*------------------------------------*\
-    $CROWD
-\*------------------------------------*/
-.crowd-section {
-	background: url(../img/crowd.png) no-repeat center center;
-	background-size: cover;
-	min-height: 360px;
-}
-
-.crowd-section__text {
-	background: white;
-	padding: $base-spacing-unit;
-}
-
-
 
 
 /*------------------------------------*\
     $CALL
 \*------------------------------------*/
 .call-section {
-	padding: 2*$base-spacing-unit 0 $base-spacing-unit;
+	@extend .information-container;
 }
 
 .call-section__text {
@@ -138,20 +91,88 @@
 
 
 /*------------------------------------*\
+    $USE-CASES
+\*------------------------------------*/
+
+.in-action-section {
+	@extend .information-container;
+	text-align: center;
+	background-color: $base-font-color;
+	color: #fff;
+	overflow: hidden;
+}
+
+.cases__item {
+	background: $base-ui-color;
+	color: $base-font-color;
+	text-align: left;
+	margin-bottom: $base-spacing-unit;
+	box-shadow: 0 3px 15px rgba(0,0,0,.85);
+	height: 19*$base-spacing-unit;
+	position: relative;
+
+	h2 {
+		font-weight: bold;
+		text-shadow: 0 0 3px $base-ui-color;
+	}
+}
+
+.cases__fade {
+	height: 8*$base-spacing-unit;
+	overflow: hidden;
+	position: relative;
+
+	&:after {
+		content: "";
+		width: 100%;
+		height: 100%;
+		top: 0;
+		position: absolute;
+		background-image: linear-gradient(0deg, $base-ui-color 0%, fade-out($base-ui-color, 1) 50%);
+	}
+}
+
+.cases__img {
+	height: 100%;
+	background-size: cover;
+}
+
+.cases__desc {
+	padding: $base-spacing-unit;
+	position: absolute;
+	bottom: 0;
+}
+
+
+
+
+
+/*------------------------------------*\
     $TESTIMONIALS
 \*------------------------------------*/
 
 .testimonials {
-	padding: 2* $base-spacing-unit 0;
-	color: lighten($base-font-color, 10%);
-	background: $base-ui-color url(../img/quote.svg) no-repeat -5% 150%;
-	background-size: auto 80%;
+	@extend .information-container;
+}
+
+.testimonials__item {
+	position: relative;
+	min-height: 11*$base-spacing-unit;
+	padding-bottom: 3* $base-spacing-unit;
+}
+
+.testimonials__border {
+	height: 0;
+	border: none;
+	border-bottom: 4px solid $base-ui-color;
+	margin-bottom: -2*$base-spacing-unit;
+	margin-top: $base-spacing-unit;
+	margin-left: $gutter;
 }
 
 .testimonials__title {
 	text-align:center;
-	font-weight: bold;
-	margin-bottom: 2*$base-spacing-unit;
+	color: $brand-color;
 }
 
 .testimonials__author {
@@ -159,45 +180,46 @@
 	font-style: italic;
 	color: lighten($base-font-color, 25%);
 	font-size: 0.85 * $base-font-size;
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
+
 
 
 
 /*------------------------------------*\
     $MEDIA-QUERIES
 \*------------------------------------*/
-@media (-webkit-min-device-pixel-ratio: 1.5), 
-(min-resolution: 144dpi) {
-	.main-header--landing__phone {
-		background: url(../img/phone@2x.png) no-repeat right center;
-		background-size: 100% 100%;
+@include grid-media-query('portable') { 
+	.landing-header {
+		padding-top: 0;
+		padding-bottom: 3* $base-spacing-unit;
 	}
 
-	.macbook-section__bg {
-		background: url(../img/macbook@2x.png) no-repeat left top;
-		background-size: 100% 100%;
-	} 
-}
-
-@media only screen and #{nth(nth($breakpoints, 3), 2)} { // portable breakpoint
-	.main-header {
-		background-image: radial-gradient(ellipse at 100% 100%, #80bfe0 0%,#002f6f 53%,#001c41 100%);
-		padding: 2*$base-spacing-unit 0;
+	.landing-header__lang {
+		float: none;
+		margin-top: -2*$base-spacing-unit;
+		margin-bottom: $base-spacing-unit;
+	}
+	
+	.landing-header .main-nav {
+		margin-bottom: 3*$base-spacing-unit;
 	}
 
-	.macbook-section__text  { 
-		margin: 0;
-	}
-
-	.macbook-section {
-		min-height: 0;
-	}
-
-	.main-footer__links .push--top {
-		margin-top: 0;
-	}
-
-	.main-footer .centered {
-		background-image: none;
-	}
 } 
+
+@include grid-media-query('desk') {
+	.cases__item { margin-bottom: -2*$base-spacing-unit; }
+
+	.how__figure {
+		height: 11*$base-spacing-unit;
+		position: relative;
+
+		figcaption {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+	}
+}

@@ -1,6 +1,5 @@
 name: PINGO
 markdown: redcarpet
-pygments: false
-baseurl: http://www.trypingo.com/
+highlighter: null
 include: [".htaccess"]
-exclude: ["scss", "node_modules", "bower_components", "package.json", "gruntfile.js", "README.md"]
+exclude: ["assets/scss", "node_modules", "bower_components", "package.json", "gulpfile.js", "README.md"]

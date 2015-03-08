@@ -1,0 +1,47 @@
+
+h1,.alpha{
+	@include font-size(2.25 * $base-font-size);
+}
+h2,.beta{
+	@include font-size(1.875 * $base-font-size);
+}
+h3,.gamma{
+	@include font-size(1.5 * $base-font-size);
+}
+h4,.delta{
+	@include font-size(1.25 * $base-font-size);
+}
+h5,.epsilon{
+	@include font-size(1 * $base-font-size);
+}
+h6,.zeta{
+	@include font-size(0.875 * $base-font-size);
+}
+
+
+
+
+
+.hN{
+	margin-bottom:4px;
+}
+
+
+
+
+
+.giga{
+	@include font-size(6 * $base-font-size);
+}
+.mega{
+	@include font-size(4.5 * $base-font-size);
+}
+.kilo{
+	@include font-size(3 * $base-font-size);
+}
+
+
+
+.lead {
+	font-size: 1.25 * $base-font-size;
+}

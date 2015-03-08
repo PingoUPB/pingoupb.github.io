@@ -3,88 +3,32 @@ layout: default
 title: Peer Instruction for very large Groups, Classroom-Response-System, Audience-Feedback
 ---
 
-<header class="main-header main-header--landing">
+<header class="landing-header">
+	{% include layout/nav.en.html variant="main-nav--header" %}
+
 	<div class="centered">
-		<div class="main-header--landing__lang" data-in-locale="de">
+		<div class="landing-header__lang" data-in-locale="de">
 			<a href="de">Zur deutschen Seite wechseln &rsaquo;</a>
 		</div>
-		<div class="grid">
-			<div class="grid__item one-half portable--one-whole main-header--landing__desc">
-				<img src="{{ site.baseurl }}assets/img/logo.svg" alt="PINGO" class="main-header--landing__logo">
-				<h1 class="main-header__title main-header--landing__title">
-					Peer Instruction <br> for very large Groups
-				</h1>
-				<article class="main-header--landing__text">
-					<p>PINGO is a <strong>free</strong> live-feedback system for the active involvement of students in taught lessons. Particularly suited to teaching in large lecture halls.</p>
-				</article>
-				<div class="main-header--landing__actions">
-					<a class="button button--hollow" href="https://pingo.upb.de/users/sign_up?utm_source=landing-page&utm_medium=web&utm_campaign=lndng-btn-tp">Register as a lecturer</a>
-					<a class="button button--stripped" href="en/features">learn more &rsaquo;</a>
-				</div>
+		<div class="landing-header__desc">
+			<h1 class="landing-header__title">
+				Free Audience Response
+			</h1>
+
+			<article class="landing-header__text">
+				<p>PINGO enables you to interact with your audience. Start live polls in your browser. Everybody with a device that is connected to the internet can take part.</p>
+			</article>
+
+			<div class="landing-header__actions">
+				<a class="button button--hollow" href="https://pingo.upb.de/users/sign_up?utm_source=landing-page&utm_medium=web&utm_campaign=lndng-btn-tp">Sign Up For Free</a>
+				<a class="button button--stripped" href="en/features">learn more &rsaquo;</a>
 			</div>
-			<a href="https://pingo.upb.de/6169/" class="main-header--landing__phone portable--hide"></a>
 		</div>
+
 	</div>
 </header>
-{% include nav.html %}
-<section class="centered macbook-section">
-	<div class="macbook-section__bg portable--hide">
-	</div>
-	<div class="grid">
-		<div class="grid__item one-half push--desk--one-half portable--one-whole">
-			<article class="macbook-section__text">
-				<h2>No installation – no additional hardware required.</h2>
-				<p>PINGO operates via your browser. It is made available for free by the University of Paderborn. Students can participate simply by accessing a browser with their smartphone, tablet or notebook.  Lecturers also use a browser to launch or close a survey, and to prepare their questions.</p>
-			</article>
-		</div>
-	</div>
-</section>
-<section class="crowd-section">
-	<div class="centered">
-		<div class="grid">
-			<article class="grid__item one-third lap--one-half palm--one-whole crowd-section__text">
-				<h2>Start immediately</h2>
-				<p>You can start using PINGO straight after registering. No preparation is required. Launch your first survey directly as a <strong>quick-session</strong>.</p>
-			</article>
-		</div>
-	</div>
-</section>
-<section class="testimonials">
-	<div class="centered">
-		<h2 class="testimonials__title">Over 2000 lecturers already use PINGO</h2>
-		<div class="grid">
-			<article class="grid__item one-third portable--one-whole testimonials__item">
-				<p>
-					“I've been using PINGO in my lectures with many hundred students since their inital beta and have never been disappointed: A reliable, easy and intuitive tool for classroom interaction without any folderol.”
-				</p><br>
-				<p class="testimonials__author">—Prof. Dr. Stefan Sackmann,<br> Martin-Luther-University Halle-Wittenberg</p>
-			</article>
-			<article class="grid__item one-third portable--one-whole testimonials__item">
-				<p>
-					“PINGO is a fantastic little piece of software.  It’s simple,
-     well-designed and quick to set up for a lecturer, it’s simple,
-     well-designed and quick to use for the students. I also found it very
-     reliable.”
-				</p><br>
-				<p class="testimonials__author"><br> —Mario Fiorini,<br> University of Technology Sydney</p>			</article>
-			<article class="grid__item one-third portable--one-whole testimonials__item">
-				<p>
-					“From the second year of our curriculum most of the teaching activities
-are done in small groups. PINGO is a mean to bring the spirit of this
-active learning phylosophy to the first study year too where we have large
-classes of over 500 students.”
-				</p>
-				<p class="testimonials__author">—Dr. Daniel Scherly,<br>Faculty of Medicine of the University of Geneva</p>
-			</article>
-		</div>
-	</div>
-</section>
-<section class="call-section">
-	<article class="centered call-section__text">
-		<p><a class="button button--primary" href="https://pingo.upb.de/users/sign_up?utm_source=landing-page&utm_medium=web&utm_campaign=lndng-btn-bttm">Sign up for free now</a>
-		</p>
-		<p>
-			<a href="en/features" class="muted-link">Still not convinced? Check out all features of PINGO &rsaquo;</a>
-		</p>
-	</article>
-</section>
+
+{% include container/how.en.html %}
+{% include container/in_action.en.html %}
+{% include container/testimonials.en.html %}
+{% include container/call.en.html %}

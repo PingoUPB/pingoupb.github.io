@@ -3,6 +3,7 @@ layout: page
 title: Team
 ---
 {% assign task = "" %}
+<h1>Team</h1>
 <div class="people-list grid">
 {% for person in site.data.people %}
 	{% if task != person.task %}
@@ -12,7 +13,7 @@ title: Team
 	</div>
 	{% endif %}
 	<div class="grid__item one-third lap--one-half palm--one-whole people-list__item">
-		<div class="people-list__photo" style="background-image:url({{ site.baseurl }}assets/img/people/{{ person.img }})" alt="{{ person.name }}"></div>
+		<div class="people-list__photo" style="background-image:url(/assets/img/people/{{ person.img }})" alt="{{ person.name }}"></div>
 		<p class="people-list__desc"><a href="{{ person.url }}"><strong class="people-list__name">{{ person.name }}</strong></a>
 		<span class="people-list__meta">{{ person.chair }}</span></p>
 	</div>

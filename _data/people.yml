@@ -4,11 +4,11 @@
   chair: Chair of Information Management & E-Finance
   url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/dennis-kundisch/
 
-- name: Dipl.-Kfm. Philipp Herrmann
+- name: M. Sc. Darius Schlangenotto
   task: Project lead
-  img: herrmann.jpg
+  img: Schlangenotto.jpg
   chair: Chair of Information Management & E-Finance
-  url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/philipp-herrmann/
+  url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/darius-schlangenotto/
 
 - name: Prof. Dr. Marc Beutner
   task: Didactics
@@ -52,8 +52,15 @@
   chair: Chair of Information Management & E-Finance
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
 
+- name: Dipl.-Kfm. Philipp Herrmann
+  task: Former team members
+  img: herrmann.jpg
+  chair: Chair of Information Management & E-Finance
+  url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/ehemalige-mitarbeiter/
+
 - name: Nils Dake
-  task: Development
+  task: Former team members
   img: dake.jpg
   chair: Chair of Information Management & E-Finance
-  url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
+  url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/ehemalige-mitarbeiter/
+

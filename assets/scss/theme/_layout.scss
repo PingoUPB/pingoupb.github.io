@@ -2,7 +2,7 @@
     $HEADER
 \*------------------------------------*/
 .main-header {
-	background-color: $base-brand-color; // fallback
+	background-color: $brand-color; // fallback
 	color: #fff;
 	padding: 1*$base-spacing-unit 0;
 	background-image: radial-gradient(ellipse at bottom right, #80bfe0 0%,#002f6f 53%,#001c41 100%);
@@ -16,31 +16,37 @@
 
 
 
+/*------------------------------------*\
+    $PAGE
+\*------------------------------------*/
+.page {
+	padding: 2*$base-spacing-unit 0 $base-spacing-unit; 
+	background-color: #fff;
+}
+
+
 
 
 /*------------------------------------*\
     $FOOTER
 \*------------------------------------*/
-html {
-	position: relative;
-	box-sizing: border-box;
-	padding-bottom: 19*$base-spacing-unit;
-}
 
 .main-footer {
 	padding: $base-spacing-unit 0 0 ;
-	background: #333;
+	background: $base-font-color;
 	color: #fff;
-	position: absolute; 
-	bottom: 0;
-	width: 100%;
 
 	.centered {
-		background: url(../img/logo-muted.svg) no-repeat right 62%;
+		background: url(../img/logo-muted.svg) no-repeat calc(100% - 24px) 62%;
 	}
 
 	a {
 		color: #ccc;
+		text-decoration: none;
+
+		&:hover {
+			color: #fff;
+		}
 	}
 }
 
@@ -62,8 +68,31 @@ html {
 	color: #fff;
 }
 
-@media only screen and (min-width: 768px) {
-	html {
-		padding-bottom: 8*$base-spacing-unit;
-	}
+
+
+
+
+/*------------------------------------*\
+    $INFORMATION CONTAINER
+\*------------------------------------*/
+.information-container {
+	padding: 3*$base-spacing-unit 0 2*$base-spacing-unit 0;
+	background-color: #fff;
 }
+
+
+
+
+/*------------------------------------*\
+    $MEDIA-QUERIES
+\*------------------------------------*/
+@include grid-media-query('desk') { 
+
+	.page {
+		padding-top: 7*$base-spacing-unit; // fixed nav
+	}
+
+	.page--container {
+		padding-top: 4*$base-spacing-unit; 
+	}
+} 

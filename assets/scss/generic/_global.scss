@@ -3,23 +3,25 @@ html {
     overflow-y:scroll;
     min-height:100%;
     color: $base-font-color;
+    background-color: $base-font-color;
 }
 
 .centered {
-	max-width: $base-page-width;
-	padding: 0 $base-spacing-unit;
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
+	@include centered($base-page-width);
 }
 
 a {
-	color: $base-brand-color;
+	color: $brand-color;
+	@include transition(all);
 	text-decoration: none;
-
+	
 	&:hover {
-		text-decoration: underline;
+		color: lighten($brand-color, 20%);
 	}
+}
+
+img {
+	margin-bottom: -4px; // prevent img tags from messing up baselines
 }
 
 .muted-link {
@@ -41,9 +43,37 @@ a {
 }
 
 .smaller {
-	font-size: 0.75*$base-font-size;
+	font-size: 0.875*$base-font-size;
 }
 
 .align--center {
 	text-align: center;
+}
+
+.align--right {
+	text-align: right;
+}
+
+.float--right {
+	float: right;
+}
+
+.nomargin {
+	margin: 0;
+}
+
+figure img {
+	margin-bottom: 0.5* $base-spacing-unit;
+}
+
+.vertical-center {
+	.grid__item {
+		vertical-align: middle;
+	}
+}
+
+@include grid-media-query('portable') {
+	.portable--float-none {
+		float: none;
+	}
 }

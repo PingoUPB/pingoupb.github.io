@@ -1,0 +1,11 @@
+- title: Higher Education
+  desc: 'PINGO is short for ”peer instruction for very large groups” and is particularly designed for use in higher education. <a href="https://www.youtube.com/watch?v=aZC3NnUqZcs" target="_self" class="litebox">Watch the video</a>'
+  img: crowd-small.png
+
+- title: Schools/K-12
+  desc: Use PINGO for checking-in on learning goals, create tagclouds, engage your class and collect anonymous feedback from your students.
+  img: school.png
+
+- title: Corporate Training
+  desc: "Make your trainings more effective by taking questions, gathering feedback and checking-in on your attendees’ knowledge. "
+  img: business.png

@@ -2,8 +2,13 @@
 
 This page is built using Jekyll. It is currently work in progress.
 
+## Dependencies
+
+- Jekyll
+- Node & Gulp (for development)
+
 ## Development
 
-Make sure you have Jekyll and Node installed. Run `npm install` and then `grunt watch` to start the development server with livereload. For livereload, you’ll need the livereload browser extension (Chrome, Safari, Firefox). 
+Make sure you have Bundler and npm installed. Run `bundle install`, `npm install` and then `gulp` to start the development server with livereload. 
 
-Browse to `http://localhost:8000/_site/` to see your compiled site.
+Browse to `http://localhost:3000` to see your compiled site.
