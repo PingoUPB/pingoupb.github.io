@@ -19,3 +19,12 @@ Um die Dozentenansicht (Loginmaske etc.) auf einem mobilen Endgerät aufzurufen,
 Nachdem dieser Link besucht wurde, wird die Veränderung der Einstellung als Cookie auf dem Gerät gesetzt und PINGO kann von nun an wieder normal über pingo.upb.de besucht werden.
 
 Die Menüleiste lässt sich dann über den Button oben rechts ausklappen.
+
+
+## Ist es möglich, die Sprache einer Session für internationale Teilnehmer zu ändern?
+
+Ja, dies ist möglich. Klicken Sie dazu in ihrer Session-Übersicht auf “Bearbeiten”. Hier können Sie neben dem Namen und Beschreibung der Session auch die Sprache verändern. Nach einem Wechsel der Sprache zu Deutsch oder Englisch, sollte die Benutzeroberfläche innerhalb der Session nun ausschließlich deutsche oder englische Begriffe verwenden.
+
+## Kann ich kollaborativ Fragen oder Sessions mit meinen Kollegen teilen und nutzen?
+
+Um Fragen oder Sessions mit anderen Nutzern zu teilen, klicken Sie in der Session- oder Fragen-Übersicht auf “Bearbeiten” und geben Sie in dem dafür vorgesehenen Eingabefeld die E-Mail Adresse Ihres Kollegen/Ihrer Kollegin ein. Bei der E-Mail Adresse muss es sich um die gleiche Adresse handeln, mit der Ihr Kollege/Ihre Kollegin im PINGO-System registriert ist.
