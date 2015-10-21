@@ -1,5 +1,5 @@
 name: PINGO
 markdown: redcarpet
-highlighter: null
+highlighter: pygments
 include: [".htaccess"]
 exclude: ["assets/scss", "node_modules", "bower_components", "package.json", "gulpfile.js", "README.md"]
