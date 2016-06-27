@@ -1,6 +1,12 @@
 {% assign clean_url = page.url | remove: "/index.html" %}
 {% assign current_page = site.data.nav_de | where: "url", clean_url | first %}
 
+<!-- DEBUG
+{{ clean_url }}
+{{ current_page | inspect }}
+
+-->
+
 <nav class="main-nav {{ include.variant }}">
 	<div class="centered">
 		<a href="/de" class="main-nav__logo">
@@ -12,7 +18,7 @@
 			{% for p in roots %}
 			<li {% if clean_url == p.url or current_page.parent == p.url %} class="active" {% endif %}>
 				<a href="{{ p.url }}" title="{{ p.title }}">{{ p.title }}</a>
-			</li>	
+			</li>
 			{% endfor %}
 
 			<li class="main-nav__button">
@@ -36,10 +42,10 @@
 			{% for p in children %}
 			<li {% if clean_url == p.url %} class="active" {% endif %}>
 				<a href="{{ p.url }}" title="{{ p.title }}">{{ p.title }}</a>
-			</li>		
+			</li>
 			{% endfor %}
 		</ul>
-	</div> 
+	</div>
 </nav>
 
 {% endif %}
