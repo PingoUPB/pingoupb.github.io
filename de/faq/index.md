@@ -36,4 +36,4 @@ Für diesen Zweck haben wir einen Demo-Zugang für Sie eingerichtet:
 **Benutzername**: demo@pingo-projekt.de   
 **Passwort**: demouser
 
-Bitte beachten Sie, dass jeder Zugriff auf diesen Benutzer hat. Nutzen Sie den Zugang daher bitte nur zu Testzwecken. Sie können sich einfach und kostenlos Ihren eigenen Accuunt anlegen unter <https://pingo.upb.de/users/sign_up>
+Bitte beachten Sie, dass jeder Zugriff auf diesen Benutzer hat. Nutzen Sie den Zugang daher bitte nur zu Testzwecken. Sie können sich einfach und kostenlos Ihren eigenen Account anlegen unter <https://pingo.upb.de/users/sign_up>
