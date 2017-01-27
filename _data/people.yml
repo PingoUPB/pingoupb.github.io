@@ -1,13 +1,13 @@
 - name: Prof. Dr. Dennis Kundisch
   task: Project lead
   img: kundisch.jpg
-  chair: Chair of Information Management & E-Finance
+  chair: Chair of Buisness Information Systems, Digital Markets
   url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/dennis-kundisch/
 
 - name: M. Sc. Darius Schlangenotto
   task: Project lead
   img: schlangenotto.jpg
-  chair: Chair of Information Management & E-Finance
+  chair: Chair of Buisness Information Systems, Digital Markets
   url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/darius-schlangenotto/
 
 - name: Prof. Dr. Marc Beutner
@@ -37,36 +37,48 @@
 - name: Michael Whittaker
   task: Development
   img: whittaker.jpg
-  chair: Chair of Information Management & E-Finance
+  chair: Chair of Buisness Information Systems, Digital Markets
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
 
 - name: Jürgen Neumann
   task: Development
   img: neumann.jpg
-  chair: Chair of Information Management & E-Finance
+  chair: Chair of Buisness Information Systems, Digital Markets
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
-
-- name: Christoph Bach
+  
+- name: Dirk Leffrang
   task: Development
-  img: bach.jpg
-  chair: Chair of Information Management & E-Finance
+  img: leffrang.jpg
+  chair: Chair of Buisness Information Systems, Digital Markets
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
-
-- name: Florian Braun
+ 
+- name: Christian Werning
   task: Development
-  img: braun.jpg
-  chair: Chair of Information Management & E-Finance
-  url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
+  img: werning.png
+  chair: Chair of Buisness Information Systems, Digital Markets
+  url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/  
 
 - name: Dipl.-Kfm. Philipp Herrmann
   task: Former team members
   img: herrmann.jpg
-  chair: Chair of Information Management & E-Finance
+  chair: Chair of Buisness Information Systems, Digital Markets
   url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/ehemalige-mitarbeiter/
 
 - name: Nils Dake
   task: Former team members
   img: dake.jpg
-  chair: Chair of Information Management & E-Finance
+  chair: Chair of Buisness Information Systems, Digital Markets
   url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/ehemalige-mitarbeiter/
+  
+- name: Christoph Bach
+  task: Former team members
+  img: bach.jpg
+  chair: Chair of Buisness Information Systems, Digital Markets
+  url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
+
+- name: Florian Braun
+  task: Former team members
+  img: braun.jpg
+  chair: Chair of Buisness Information Systems, Digital Markets
+  url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/  
 

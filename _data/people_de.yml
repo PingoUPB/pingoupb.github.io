@@ -45,33 +45,39 @@
   img: neumann.jpg
   chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
-
-- name: Christoph Bach
-  task: Entwicklung
-  img: bach.jpg
-  chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
-  url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
-
-- name: Florian Braun
-  task: Entwicklung
-  img: braun.jpg
-  chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
-  url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
   
 - name: Dirk Leffrang
   task: Entwicklung
   img: leffrang.jpg
   chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
+ 
+- name: Christian Werning
+  task: Entwicklung
+  img: werning.png
+  chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
+  url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/  
 
 - name: Dipl.-Kfm. Philipp Herrmann
   task: Ehemalige Teammitglieder
   img: herrmann.jpg
-  chair: Lehrstuhl für Wirtschaftsinformatik, Information Management & E-Finance
+  chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
   url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/philipp-herrmann/
 
 - name: Nils Dake
   task: Ehemalige Teammitglieder
   img: dake.jpg
-  chair: Lehrstuhl für Wirtschaftsinformatik, Information Management & E-Finance
+  chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
+  
+- name: Christoph Bach
+  task: Ehemalige Teammitglieder
+  img: bach.jpg
+  chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
+  url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
+
+- name: Florian Braun
+  task: Ehemalige Teammitglieder
+  img: braun.jpg
+  chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
+  url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/  
