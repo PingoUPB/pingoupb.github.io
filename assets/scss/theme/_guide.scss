@@ -1,0 +1,26 @@
+.tour-section {
+	@extend .information-container;
+}
+
+.tour-section--odd {
+	background-color: $base-ui-color;
+}
+
+.tour-section--bars .centered {
+	background: url(../img/bars.svg) no-repeat right bottom;
+}
+
+.example-question {
+	text-align: center;
+	font-style: italic;
+}
+
+.guideimg{
+	padding: 15px;
+	border: medium solid #ececec;
+	background-color: white;
+	}
+
+	.fullsize{
+		max-width: 100%;
+	}

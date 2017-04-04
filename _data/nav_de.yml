@@ -22,6 +22,14 @@
   url: /de/faq/
   parent: /de/faq/
 
-- title: User Guide
-  url: https://pingo.upb.de/tutorial/tutorial.html
+- title: Hilfe für Dozenten
+  url: /de/faq/guide_lecturer.html
+  parent: /de/faq/
+  
+- title: Hilfe für Teilnehmer
+  url: /de/faq/guide_student.html
+  parent: /de/faq/
+  
+- title: Video
+  url: /de/faq/guide_video.html
   parent: /de/faq/
