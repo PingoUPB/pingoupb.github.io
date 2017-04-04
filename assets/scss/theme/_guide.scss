@@ -16,7 +16,7 @@
 }
 
 .guideimg{
-	padding: 15px;
+	padding: 5px;
 	border: medium solid #ececec;
 	background-color: white;
 	}
@@ -24,3 +24,16 @@
 	.fullsize{
 		max-width: 100%;
 	}
+	
+	.menu-section{
+		position: fixed;
+		width: 30%;
+		margin-left: 250;
+		margin-top: 50;
+		
+	}
+	
+.tour-section{
+	margin-left:30%;
+	width: 70%;
+}	
