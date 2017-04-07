@@ -28,12 +28,25 @@
 	.menu-section{
 		position: fixed;
 		width: 30%;
-		margin-left: 250;
-		margin-top: 50;
+		margin-top: 10%;
 		
 	}
 	
-.tour-section{
+.guidebody .tour-section{
 	margin-left:30%;
 	width: 70%;
-}	
+}
+
+@media (max-width: 850px) {
+   
+	.guidebody .tour-section{
+		margin-left:0;
+		width: 100%;
+	}
+	
+	.menu-section{
+		display: none;
+		
+	}
+   
+ }
