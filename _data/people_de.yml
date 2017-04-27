@@ -2,31 +2,31 @@
   task: Projektleitung
   img: kundisch.jpg
   chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
-  url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/dennis-kundisch/
+  url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/prof-dr-dennis-kundisch/
 
 - name: M. Sc. Darius Schlangenotto
   task: Projektleitung
   img: schlangenotto.jpg
   chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
-  url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/darius-schlangenotto/
+  url: http://www.uni-paderborn.de/person/13268/
 
 - name: Prof. Dr. Marc Beutner
   task: Didaktik
   img: beutner.gif
   chair: Lehrstuhl für Wirtschaftspädagogik
-  url: https://wiwi.uni-paderborn.de/department5/ls-beutner/beutner/
+  url: http://www.uni-paderborn.de/person/21118/
 
-- name: Dr. Andrea Zoyke
+- name: Prof. Dr. Andrea Zoyke
   task: Didaktik
   img: zoyke.jpg
   chair: Lehrstuhl für Wirtschaftspädagogik
-  url: https://wiwi.uni-paderborn.de/department5/lehrstuhl-prof-dr-peter-f-e-sloane/zoyke0/
+  url: https://www.berufsundwirtschaftspaedagogik.uni-kiel.de/de/team/zoyke
 
 - name: Prof. Dr. Gregor Fels
   task: Didaktik
   img: fels.jpg
   chair: Organische Chemie
-  url: http://chemie.uni-paderborn.de/en/fachgebiete/oc/oc-fels/personen/prof-dr-gregor-fels/
+  url: https://chemie.uni-paderborn.de/en/arbeitskreise/organische-chemie/fels/team/head-detail/?tx_upbperson_personsite%5BpersonId%5D=114&tx_upbperson_personsite%5Bcontroller%5D=Person&cHash=530427cc829bffc37cbd639b044860f4
 
 - name: Prof. Dr. Johannes Magenheim
   task: Didaktik
@@ -52,17 +52,17 @@
   chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
 
-- name: Dipl.-Kfm. Philipp Herrmann
+- name: Dr. Philipp Herrmann
   task: Ehemalige Teammitglieder
   img: herrmann.jpg
   chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
-  url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/philipp-herrmann/
+  url: http://www.uni-paderborn.de/person/58638/
 
 - name: Nils Dake
   task: Ehemalige Teammitglieder
   img: dake.jpg
   chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
-  url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
+  url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/ehemalige/
   
 - name: Christoph Bach
   task: Ehemalige Teammitglieder
