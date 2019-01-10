@@ -1,53 +1,65 @@
-- name: Prof. Dr. Dennis Kundisch
+- name: Dominik Niehus
   task: Project lead
+  img: niehus.jpg
+  chair: coactum GmbH
+  url: https://www.coactum.de/das-team.html
+  
+- name: Dr. Harald Selke
+  task: Project lead
+  img: selke.jpg
+  chair: coactum GmbH
+  url: https://www.coactum.de/das-team.html
+
+- name: Prof. Dr. Dennis Kundisch
+  task: cooperation
   img: kundisch.jpg
   chair: Chair of Information Management & E-Finance
   url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/dennis-kundisch/
-
-- name: M. Sc. Darius Schlangenotto
-  task: Project lead
-  img: schlangenotto.jpg
-  chair: Chair of Information Management & E-Finance
-  url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/darius-schlangenotto/
-
-- name: Prof. Dr. Marc Beutner
-  task: Didactics
-  img: beutner.gif
-  chair: Lehrstuhl für Wirtschaftspädagogik
-  url: https://wiwi.uni-paderborn.de/department5/ls-beutner/beutner/
-
-- name: Dr. Andrea Zoyke
-  task: Didactics
-  img: zoyke.jpg
-  chair: Lehrstuhl für Wirtschaftspädagogik
-  url: https://wiwi.uni-paderborn.de/department5/lehrstuhl-prof-dr-peter-f-e-sloane/zoyke0/
-
-- name: Prof. Dr. Gregor Fels
-  task: Didactics
-  img: fels.jpg
-  chair: Organic Chemistry
-  url: http://chemie.uni-paderborn.de/en/fachgebiete/oc/oc-fels/personen/prof-dr-gregor-fels/
-
-- name: Prof. Dr. Johannes Magenheim
-  task: Didactics
-  img: magenheim.jpg
-  chair: Didactics of Informatics
-  url: http://ddi.uni-paderborn.de/personen/johannes-magenheim.html
-
+  
 - name: Michael Whittaker
-  task: Development
+  task: cooperation
   img: whittaker.jpg
   chair: Chair of Information Management & E-Finance
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
 
 - name: Jürgen Neumann
-  task: Development
+  task: cooperation
   img: neumann.jpg
   chair: Chair of Information Management & E-Finance
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
+
+- name: M. Sc. Darius Schlangenotto
+  task: Former team members
+  img: schlangenotto.jpg
+  chair: Chair of Information Management & E-Finance
+  url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/darius-schlangenotto/
+
+- name: Prof. Dr. Marc Beutner
+  task: Former team members
+  img: beutner.gif
+  chair: Lehrstuhl für Wirtschaftspädagogik
+  url: https://wiwi.uni-paderborn.de/department5/ls-beutner/beutner/
+
+- name: Dr. Andrea Zoyke
+  task: Former team members
+  img: zoyke.jpg
+  chair: Lehrstuhl für Wirtschaftspädagogik
+  url: https://wiwi.uni-paderborn.de/department5/lehrstuhl-prof-dr-peter-f-e-sloane/zoyke0/
+
+- name: Prof. Dr. Gregor Fels
+  task: Former team members
+  img: fels.jpg
+  chair: Organic Chemistry
+  url: http://chemie.uni-paderborn.de/en/fachgebiete/oc/oc-fels/personen/prof-dr-gregor-fels/
+
+- name: Prof. Dr. Johannes Magenheim
+  task: Former team members
+  img: magenheim.jpg
+  chair: Didactics of Informatics
+  url: http://ddi.uni-paderborn.de/personen/johannes-magenheim.html
   
 - name: Dirk Leffrang
-  task: Development
+  task: Former team members
   img: leffrang.jpg
   chair: Chair of Information Management & E-Finance
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
