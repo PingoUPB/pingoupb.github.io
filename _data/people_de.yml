@@ -1,53 +1,65 @@
-- name: Prof. Dr. Dennis Kundisch
+- name: Dominik Niehus
   task: Projektleitung
+  img: niehus.jpg
+  chair: coactum GmbH
+  url: https://www.coactum.de/das-team.html
+  
+- name: Dr. Harald Selke
+  task: Projektleitung
+  img: selke.jpg
+  chair: coactum GmbH
+  url: https://www.coactum.de/das-team.html
+
+- name: Prof. Dr. Dennis Kundisch
+  task: Kooperation & Berartung
   img: kundisch.jpg
   chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
   url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/dennis-kundisch/
-
-- name: M. Sc. Darius Schlangenotto
-  task: Projektleitung
-  img: schlangenotto.jpg
-  chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
-  url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/darius-schlangenotto/
-
-- name: Prof. Dr. Marc Beutner
-  task: Didaktik
-  img: beutner.gif
-  chair: Lehrstuhl für Wirtschaftspädagogik
-  url: https://wiwi.uni-paderborn.de/department5/ls-beutner/beutner/
-
-- name: Dr. Andrea Zoyke
-  task: Didaktik
-  img: zoyke.jpg
-  chair: Lehrstuhl für Wirtschaftspädagogik
-  url: https://wiwi.uni-paderborn.de/department5/lehrstuhl-prof-dr-peter-f-e-sloane/zoyke0/
-
-- name: Prof. Dr. Gregor Fels
-  task: Didaktik
-  img: fels.jpg
-  chair: Organische Chemie
-  url: http://chemie.uni-paderborn.de/en/fachgebiete/oc/oc-fels/personen/prof-dr-gregor-fels/
-
-- name: Prof. Dr. Johannes Magenheim
-  task: Didaktik
-  img: magenheim.jpg
-  chair: Fachgebiet Didaktik der Informatik
-  url: http://ddi.uni-paderborn.de/personen/johannes-magenheim.html
-
+  
 - name: Michael Whittaker
-  task: Entwicklung
+  task: Kooperation & Berartung
   img: whittaker.jpg
   chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
 
 - name: Jürgen Neumann
-  task: Entwicklung
+  task: Kooperation & Berartung
   img: neumann.jpg
   chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
 
+- name: M. Sc. Darius Schlangenotto
+  task: Ehemalige Teammitglieder
+  img: schlangenotto.jpg
+  chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
+  url: https://wiwi.uni-paderborn.de/dep3/winfo2/team/darius-schlangenotto/
+
+- name: Prof. Dr. Marc Beutner
+  task: Ehemalige Teammitglieder
+  img: beutner.gif
+  chair: Lehrstuhl für Wirtschaftspädagogik
+  url: https://wiwi.uni-paderborn.de/department5/ls-beutner/beutner/
+
+- name: Dr. Andrea Zoyke
+  task: Ehemalige Teammitglieder
+  img: zoyke.jpg
+  chair: Lehrstuhl für Wirtschaftspädagogik
+  url: https://wiwi.uni-paderborn.de/department5/lehrstuhl-prof-dr-peter-f-e-sloane/zoyke0/
+
+- name: Prof. Dr. Gregor Fels
+  task: Ehemalige Teammitglieder
+  img: fels.jpg
+  chair: Organische Chemie
+  url: http://chemie.uni-paderborn.de/en/fachgebiete/oc/oc-fels/personen/prof-dr-gregor-fels/
+
+- name: Prof. Dr. Johannes Magenheim
+  task: Ehemalige Teammitglieder
+  img: magenheim.jpg
+  chair: Fachgebiet Didaktik der Informatik
+  url: http://ddi.uni-paderborn.de/personen/johannes-magenheim.html
+
 - name: Dirk Leffrang
-  task: Entwicklung
+  task: Ehemalige Teammitglieder
   img: leffrang.jpg
   chair: Lehrstuhl für Wirtschaftsinformatik, Digitale Märkte
   url: http://wiwi.uni-paderborn.de/dep3/winfo2/team/studentische-hilfskraefte/
