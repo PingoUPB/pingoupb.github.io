@@ -14,7 +14,7 @@ Es ist davon abzuraten, für jeden Termin eine neue Session anzulegen. Stattdess
 
 Um die Dozentenansicht (Loginmaske etc.) auf einem mobilen Endgerät aufzurufen, muss der folgende Link einmalig mit dem Gerät besucht werden:
 
-<http://pingo.coactum.de/switch_view?mobile=0>
+<https://pingo.coactum.de/switch_view?mobile=0>
 
 Nachdem dieser Link besucht wurde, wird die Veränderung der Einstellung als Cookie auf dem Gerät gesetzt und PINGO kann von nun an wieder normal über pingo.upb.de besucht werden.
 
