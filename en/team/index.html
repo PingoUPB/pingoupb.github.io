@@ -5,6 +5,19 @@ title: Team
 {% assign task = "" %}
 <h1>Team</h1>
 <div class="people-list grid">
+	<div class="grid__item one-whole people-list__separator">
+		<h2>Project lead</h2>
+	</div>
+	<div class="grid__item one-third lap--one-half palm--one-whole people-list__item">
+		<div class="people-list__photo" style="background-image:url(/assets/img/people/niehus2_h120.jpg)" alt="Dominik Niehus"></div>
+		<p class="people-list__desc"><a href="https://www.coactum.de/"><strong class="people-list__name">Dominik Niehus</strong></a>
+		<span class="people-list__meta">coactum GmbH</span></p>
+	</div>
+	<div class="grid__item one-third lap--one-half palm--one-whole people-list__item">
+		<div class="people-list__photo" style="background-image:url(/assets/img/people/selke_h120.jpg)" alt="Dr. Harald Selke"></div>
+		<p class="people-list__desc"><a href="https://www.coactum.de/"><strong class="people-list__name">Dr. Harald Selke</strong></a>
+		<span class="people-list__meta">coactum GmbH</span></p>
+	</div>
 {% for person in site.data.people %}
 	{% if task != person.task %}
 	{%  assign task = person.task %}
