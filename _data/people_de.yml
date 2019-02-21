@@ -1,15 +1,3 @@
-- name: Dominik Niehus
-  task: Projektleitung
-  img: niehus.jpg
-  chair: coactum GmbH
-  url: https://www.coactum.de/
-  
-- name: Dr. Harald Selke
-  task: Projektleitung
-  img: selke.jpg
-  chair: coactum GmbH
-  url: https://www.coactum.de/
-
 - name: Prof. Dr. Dennis Kundisch
   task: Kooperationspartner an der Universität Paderborn
   img: kundisch.jpg
