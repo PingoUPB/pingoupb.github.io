@@ -6,7 +6,7 @@ layout: page
 # Frequently Asked Questions
 
 ## Can I ask multiple questions in one survey?
-PINGO's concept is to include a question in a classroom event in such a way that it always asks a question and then influences the progress of the lecture by picking up the answers and discussing them. The concept therefore provides that individual questions are always asked and not complex surveys.
+PINGO’s concept is to include a question in a classroom event in such a way that the lecturer always asks a question and then decides how to progress with the lecture by taking up the answers and discussing them. The idea therefore is that individual questions are asked instead of complex surveys.
 
 ## What is a session?
 
