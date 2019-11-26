@@ -5,6 +5,9 @@ layout: page.de
 
 # Frequently Asked Questions
 
+## Kann ich mehrere Fragen in einer Umfrage stellen?
+Das Konzept von PINGO sieht eine Einbindung in eine Präsenzveranstaltung in der Form vor, dass immer eine Frage gestellt wird und diese dann den Fortgang der Vorlesung beeinflusst, indem die Antworten aufgegriffen und diskutiert werden. Das Konzept sieht daher vor, dass stets einzelne Fragen gestellt werden und keine komplexen Umfragen.
+
 ## Was ist eine Session?
 
 Eine Session in PINGO beschreibt in der Regel eine Veranstaltungsreihe (bspw. eine Lehrveranstaltung).
