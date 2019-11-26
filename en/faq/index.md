@@ -5,6 +5,9 @@ layout: page
 
 # Frequently Asked Questions
 
+## Can I ask multiple questions in one survey?
+PINGO's concept is to include a question in a classroom event in such a way that it always asks a question and then influences the progress of the lecture by picking up the answers and discussing them. The concept therefore provides that individual questions are always asked and not complex surveys.
+
 ## What is a session?
 
 A session in PINGO represents a series of lectures, conferences, etc. One should not create a new session for each new event. Instead, a session should be used over a longer period (e.g. a semester). 
