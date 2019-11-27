@@ -1,4 +1,6 @@
 name: PINGO
 highlighter: rouge
 include: [".htaccess"]
-exclude: ["assets/scss", "node_modules", "bower_components", "package.json", "gulpfile.js", "README.md"]
+exclude: ["assets/scss", "node_modules", "bower_components", "package.json", "package-lock.json", "gulpfile.js", "README.md", "CNAME", "Gemfile", "Gemfile.lock"]
+plugins:
+  - jekyll-coffeescript

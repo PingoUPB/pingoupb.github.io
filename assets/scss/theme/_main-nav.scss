@@ -2,145 +2,150 @@
     $MAIN-NAV
 \*------------------------------------*/
 %nav-bar {
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 1;
-	text-align: left;
-	position: static;
-	width: 100%;
-	top: 0;
-	z-index: 100;
-	transition: padding ease 300ms;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  text-align: left;
+  position: static;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  transition: padding ease 300ms;
 }
 
 .main-nav {
-	background-color: $brand-color;
-	padding: 0.5* $base-spacing-unit 0;
-	@extend %nav-bar;
+  background-color: $brand-color;
+  padding: 0.5* $base-spacing-unit 0;
+  @extend %nav-bar;
 
-	a {
-		text-decoration: none;
-		padding: 0.5*$base-spacing-unit 0.75*$base-spacing-unit;
-		color: #fff;
-	}
+  a {
+    text-decoration: none;
+    padding: 0.5*$base-spacing-unit 0.75*$base-spacing-unit;
+    color: #fff;
+  }
 }
 
 .main-nav__button {
-	background-color: transparentize($brand-color, 0.5);
-	border-radius: $base-ui-radius;
-	border: 2px solid #fff;
+  background-color: transparentize($brand-color, 0.5);
+  border-radius: $base-ui-radius;
+  border: 2px solid #fff;
 
-	&:hover {
-		background-color: $brand-color;
-	}
+  &:hover {
+    background-color: $brand-color;
+  }
 }
 
 a.main-nav__logo {
-	display: inline-block;
-	padding: 0;
-	margin: 0;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
 
-	img {
-		height: 1.75*$base-spacing-unit;
-		transition: height ease 300ms;
-	}
+  img {
+    height: 1.75*$base-spacing-unit;
+    transition: height ease 300ms;
+  }
 }
-
-
 
 
 /*------------------------------------*\
     $SUB-NAV
 \*------------------------------------*/
 .sub-nav {
-	background: $base-ui-color;
-	@extend %nav-bar;
-	top: 2.85*$base-spacing-unit;
-	border-bottom: 2px solid #fff;
+  background: $base-ui-color;
+  @extend %nav-bar;
+  top: 2.85*$base-spacing-unit;
+  border-bottom: 2px solid #fff;
 
-	a {
-		padding: 0.75 * $base-spacing-unit;
-	}
+  a {
+    padding: 0.75 * $base-spacing-unit;
+  }
 }
 
 .sub-nav__links {
-	margin-bottom: 0;
+  margin-bottom: 0;
 
-	.active a {
-		background-color: lighten($base-ui-color, 5%);
-	}
+  .active a {
+    background-color: lighten($base-ui-color, 5%);
+  }
 }
-
-
 
 
 /*------------------------------------*\
     $MEDIA QUERIES
 \*------------------------------------*/
 @include grid-media-query('desk') {
-	.main-nav {
-		.active::after  {
-			content: " ";
-			border: 8px solid transparent;
-			border-bottom-color: $base-ui-color;
-			position: absolute;
-			bottom: -0.6*$base-spacing-unit;
-			left: 50%;
-			margin-left: -8px;
-		}
+  .main-nav {
+    .active::after {
+      content: " ";
+      border: 8px solid transparent;
+      border-bottom-color: $base-ui-color;
+      position: absolute;
+      bottom: -0.6*$base-spacing-unit;
+      left: 50%;
+      margin-left: -8px;
+    }
 
-		li {
-			position: relative;
-			margin-left: 0.25*$base-spacing-unit;
-		}
-	}
+    li {
+      position: relative;
+      margin-left: 0.25*$base-spacing-unit;
+    }
+  }
 
-	.main-nav--header .main-nav__button {
-		border-color: transparent;
-	}
+  .main-nav--header .main-nav__button {
+    border-color: transparent;
+  }
 
-	.main-nav__links{
-		margin-bottom: 0;
-		float: right;
-	}
+  .main-nav__links {
+    margin-bottom: 0;
+    float: right;
+  }
 
-	.main-nav, .sub-nav {
-		position: fixed;
-	}
+  .main-nav, .sub-nav {
+    position: fixed;
+  }
 
-	.main-nav--header {
-		padding: $base-spacing-unit 0;
-		background-color: transparent;
-		@extend .cf;
+  .main-nav--header {
+    padding: $base-spacing-unit 0;
+    background-color: transparent;
 
-		a.main-nav__logo img {
-			height: 3.75*$base-spacing-unit;
-		}
-	}
+    .cf:before,
+    .cf:after {
+      content: " ";
+      display: table;
+    }
+
+    .cf:after {
+      clear: both;
+    }
+
+    a.main-nav__logo img {
+      height: 3.75*$base-spacing-unit;
+    }
+  }
 
 }
 
 @include grid-media-query('portable') {
-	.main-nav {
-		text-align: center;
+  .main-nav {
+    text-align: center;
 
-		li {
-			margin-left: 0;
-		}
-	}
+    li {
+      margin-left: 0;
+    }
+  }
 
-	a.main-nav__logo {
-		display: block;
-		width: 100%;
-		margin-bottom: 0.5*$base-spacing-unit;
-	}
+  a.main-nav__logo {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5*$base-spacing-unit;
+  }
 
-	.main-nav__links {
-		margin-bottom: 0;
-		margin-left: 0;
-	}
+  .main-nav__links {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
 
-	.sub-nav {
-		text-align: center;
-	}
+  .sub-nav {
+    text-align: center;
+  }
 }

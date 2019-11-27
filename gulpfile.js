@@ -1,8 +1,8 @@
-var gulp        = require('gulp');
-var sass        = require('gulp-sass');
-var prefix      = require('gulp-autoprefixer');
-var minify      = require('gulp-minify-css');
-var cp          = require('child_process');
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var prefix = require('gulp-autoprefixer');
+var minify = require('gulp-minify-css');
+var cp = require('child_process');
 var browserSync = require('browser-sync');
 
 var messages = {
@@ -14,7 +14,7 @@ var messages = {
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
+    return cp.spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'})
         .on('close', done);
 });
 
@@ -29,7 +29,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
  * Wait for jekyll-build, then launch the Server
  */
 
-gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['sass', 'jekyll-build'], function () {
     browserSync({
         server: {
             baseDir: '_site'
@@ -40,18 +40,18 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
 /**
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
-gulp.task('sass', function() {
-  return gulp.src('assets/scss/*.scss')
-    .pipe(sass({ 
-        style: 'expanded', 
-        onError: browserSync.notify 
-    }))
-    .pipe(prefix('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
-    .pipe(gulp.dest('assets/css/'))
-    .pipe(minify())
-    .pipe(gulp.dest('assets/css/'))
-    .pipe(gulp.dest('_site/assets/css/'))
-    .pipe(browserSync.reload({stream:true}));
+gulp.task('sass', function () {
+    return gulp.src('assets/scss/*.scss')
+        .pipe(sass({
+            style: 'expanded',
+            onError: browserSync.notify
+        }))
+        .pipe(prefix('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
+        .pipe(gulp.dest('assets/css/'))
+        .pipe(minify())
+        .pipe(gulp.dest('assets/css/'))
+        .pipe(gulp.dest('_site/assets/css/'))
+        .pipe(browserSync.reload({stream: true}));
 });
 
 /**

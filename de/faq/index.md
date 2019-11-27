@@ -19,7 +19,7 @@ Um die Dozentenansicht (Loginmaske etc.) auf einem mobilen Endgerät aufzurufen,
 
 <https://pingo.coactum.de/switch_view?mobile=0>
 
-Nachdem dieser Link besucht wurde, wird die Veränderung der Einstellung als Cookie auf dem Gerät gesetzt und PINGO kann von nun an wieder normal über pingo.upb.de besucht werden.
+Nachdem dieser Link besucht wurde, wird die Veränderung der Einstellung als Cookie auf dem Gerät gesetzt und PINGO kann von nun an wieder normal über pingo.coactum.de besucht werden.
 
 Die Menüleiste lässt sich dann über den Button oben rechts ausklappen.
 
