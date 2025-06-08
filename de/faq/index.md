@@ -31,12 +31,3 @@ Ja, dies ist möglich. Klicken Sie dazu in ihrer Session-Übersicht auf “Bearb
 ## Kann ich kollaborativ Fragen oder Sessions mit meinen Kollegen teilen und nutzen?
 
 Um Fragen oder Sessions mit anderen Nutzern zu teilen, klicken Sie in der Session- oder Fragen-Übersicht auf “Bearbeiten” und geben Sie in dem dafür vorgesehenen Eingabefeld die E-Mail Adresse Ihres Kollegen/Ihrer Kollegin ein. Bei der E-Mail Adresse muss es sich um die gleiche Adresse handeln, mit der Ihr Kollege/Ihre Kollegin im PINGO-System registriert ist.
-
-## Kann ich PINGO ohne einen Benutzeraccount testen?
-
-Für diesen Zweck haben wir einen Demo-Zugang für Sie eingerichtet: 
-
-**Benutzername**: demo@pingo-projekt.de   
-**Passwort**: demouser
-
-Bitte beachten Sie, dass jeder Zugriff auf diesen Benutzer hat. Nutzen Sie den Zugang daher bitte nur zu Testzwecken. Sie können sich einfach und kostenlos Ihren eigenen Account anlegen unter <https://pingo.coactum.de/users/sign_up>
